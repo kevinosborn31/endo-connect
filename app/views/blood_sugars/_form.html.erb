@@ -1,0 +1,32 @@
+<%= form_with(model: blood_sugar, local: true) do |form| %>
+  <% if blood_sugar.errors.any? %>
+    <div id="error_explanation">
+      <h2><%= pluralize(blood_sugar.errors.count, "error") %> prohibited this blood_sugar from being saved:</h2>
+
+      <ul>
+      <% blood_sugar.errors.full_messages.each do |message| %>
+        <li><%= message %></li>
+      <% end %>
+      </ul>
+    </div>
+  <% end %>
+
+  <div class="field">
+    <%= form.label :user_id %>
+    <%= form.number_field :user_id %>
+  </div>
+
+  <div class="field">
+    <%= form.label :time %>
+    <%= form.datetime_select :time %>
+  </div>
+
+  <div class="field">
+    <%= form.label :level %>
+    <%= form.number_field :level %>
+  </div>
+
+  <div class="actions">
+    <%= form.submit %>
+  </div>
+<% end %>

@@ -1,0 +1,2 @@
+class GlycemicIndex < ApplicationRecord
+end

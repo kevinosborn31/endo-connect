@@ -1,0 +1,2 @@
+module GlycemicIndicesHelper
+end

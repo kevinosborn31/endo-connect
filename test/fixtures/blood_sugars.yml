@@ -1,0 +1,11 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  user_id: 1
+  time: 2020-02-23 22:35:30
+  level: 1
+
+two:
+  user_id: 1
+  time: 2020-02-23 22:35:30
+  level: 1

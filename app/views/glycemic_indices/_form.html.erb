@@ -1,0 +1,27 @@
+<%= form_with(model: glycemic_index, local: true) do |form| %>
+  <% if glycemic_index.errors.any? %>
+    <div id="error_explanation">
+      <h2><%= pluralize(glycemic_index.errors.count, "error") %> prohibited this glycemic_index from being saved:</h2>
+
+      <ul>
+      <% glycemic_index.errors.full_messages.each do |message| %>
+        <li><%= message %></li>
+      <% end %>
+      </ul>
+    </div>
+  <% end %>
+
+  <div class="field">
+    <%= form.label :food %>
+    <%= form.text_field :food %>
+  </div>
+
+  <div class="field">
+    <%= form.label :gi %>
+    <%= form.number_field :gi %>
+  </div>
+
+  <div class="actions">
+    <%= form.submit %>
+  </div>
+<% end %>

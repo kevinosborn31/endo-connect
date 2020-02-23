@@ -1,0 +1,14 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <strong>Food:</strong>
+  <%= @glycemic_index.food %>
+</p>
+
+<p>
+  <strong>Gi:</strong>
+  <%= @glycemic_index.gi %>
+</p>
+
+<%= link_to 'Edit', edit_glycemic_index_path(@glycemic_index) %> |
+<%= link_to 'Back', glycemic_indices_path %>

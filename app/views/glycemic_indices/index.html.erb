@@ -1,0 +1,29 @@
+<p id="notice"><%= notice %></p>
+
+<h1>Glycemic Indices</h1>
+
+<table>
+  <thead>
+    <tr>
+      <th>Food</th>
+      <th>Gi</th>
+      <th colspan="3"></th>
+    </tr>
+  </thead>
+
+  <tbody>
+    <% @glycemic_indices.each do |glycemic_index| %>
+      <tr>
+        <td><%= glycemic_index.food %></td>
+        <td><%= glycemic_index.gi %></td>
+        <td><%= link_to 'Show', glycemic_index %></td>
+        <td><%= link_to 'Edit', edit_glycemic_index_path(glycemic_index) %></td>
+        <td><%= link_to 'Destroy', glycemic_index, method: :delete, data: { confirm: 'Are you sure?' } %></td>
+      </tr>
+    <% end %>
+  </tbody>
+</table>
+
+<br>
+
+<%= link_to 'New Glycemic Index', new_glycemic_index_path %>

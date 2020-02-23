@@ -1,0 +1,19 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <strong>User:</strong>
+  <%= @blood_sugar.user_id %>
+</p>
+
+<p>
+  <strong>Time:</strong>
+  <%= @blood_sugar.time %>
+</p>
+
+<p>
+  <strong>Level:</strong>
+  <%= @blood_sugar.level %>
+</p>
+
+<%= link_to 'Edit', edit_blood_sugar_path(@blood_sugar) %> |
+<%= link_to 'Back', blood_sugars_path %>

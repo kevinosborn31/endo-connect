@@ -1,0 +1,27 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  first_name: MyString
+  last_name: MyString
+  medicare: 1
+  ndss: 1
+  phone: 1
+  email: MyString
+  location: MyText
+  specialization: MyString
+  user_type: 1
+  admin: false
+  password_digest: MyText
+
+two:
+  first_name: MyString
+  last_name: MyString
+  medicare: 1
+  ndss: 1
+  phone: 1
+  email: MyString
+  location: MyText
+  specialization: MyString
+  user_type: 1
+  admin: false
+  password_digest: MyText

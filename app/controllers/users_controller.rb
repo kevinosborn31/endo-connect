@@ -1,5 +1,7 @@
 class UsersController < ApplicationController
-  before_action :set_user, only: [:show, :edit, :update, :destroy]
+  # before_action :set_user, only: [:show, :edit, :update, :destroy]
+  before_action :check_if_logged_in, except: [ :new, :create ]
+  before_action :check_if_admin, only: [ :index ]
 
   # GET /users
   # GET /users.json
@@ -24,16 +26,12 @@ class UsersController < ApplicationController
   # POST /users
   # POST /users.json
   def create
-    @user = User.new(user_params)
-
-    respond_to do |format|
-      if @user.save
-        format.html { redirect_to @user, notice: 'User was successfully created.' }
-        format.json { render :show, status: :created, location: @user }
-      else
-        format.html { render :new }
-        format.json { render json: @user.errors, status: :unprocessable_entity }
-      end
+    @user = User.create user_params
+    if @user.persisted?
+      session[:user_id] = @user.id
+      redirect_to user_path(@user.id)
+    else
+      render :new
     end
   end
 
@@ -69,6 +67,6 @@ class UsersController < ApplicationController
 
     # Only allow a list of trusted parameters through.
     def user_params
-      params.require(:user).permit(:first_name, :last_name, :medicare, :ndss, :phone, :email, :location, :specialization, :user_type, :admin, :password_digest)
+      params.require(:user).permit(:first_name, :last_name, :medicare, :ndss, :phone, :email, :location, :specialization, :user_type, :admin, :password, :password_confirmation)
     end
 end

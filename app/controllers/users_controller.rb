@@ -1,5 +1,5 @@
 class UsersController < ApplicationController
-  # before_action :set_user, only: [:show, :edit, :update, :destroy]
+  before_action :set_user, only: [:show, :edit, :update, :destroy]
   before_action :check_if_logged_in, except: [ :new, :create ]
   before_action :check_if_admin, only: [ :index ]
 
@@ -12,6 +12,7 @@ class UsersController < ApplicationController
   # GET /users/1
   # GET /users/1.json
   def show
+    # @user = User.
   end
 
   # GET /users/new

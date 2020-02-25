@@ -16,7 +16,11 @@
       <tr>
         <td><%= question.user.first_name %></td>
         <td><%= question.qustion_text %></td>
-
+          <% if question.answer === nil %>
+          <td>No Answer</td>
+          <% else %>
+        <td><%= question.answer %></td>
+          <% end %>
         <td><%= link_to 'View', question %></td>
         <% if @current_user.user_type === 'doctor' %>
         <td><%= link_to 'Answer Question', new_answer_path %></td>

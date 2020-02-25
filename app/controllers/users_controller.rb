@@ -38,6 +38,7 @@ class UsersController < ApplicationController
 
   def home
     @blood_sugars = BloodSugar.all
+    @medications = Medication.all
   end
 
   # PATCH/PUT /users/1

@@ -2837,3 +2837,935 @@ Processing by UsersController#home as HTML
 Completed 200 OK in 25ms (Views: 21.5ms | ActiveRecord: 0.1ms)
 
 
+Started GET "/login" for ::1 at 2020-02-25 17:16:07 +1100
+Processing by SessionController#new as HTML
+  [1m[36mUser Load (0.7ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 12], ["LIMIT", 1]]
+  ↳ app/controllers/application_controller.rb:6
+  Rendering session/new.html.erb within layouts/application
+  Rendered session/new.html.erb within layouts/application (1.4ms)
+Completed 200 OK in 41ms (Views: 31.6ms | ActiveRecord: 0.7ms)
+
+
+Started GET "/login" for ::1 at 2020-02-25 17:18:20 +1100
+Processing by SessionController#new as HTML
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 12], ["LIMIT", 1]]
+  ↳ app/controllers/application_controller.rb:6
+  Rendering session/new.html.erb within layouts/application
+  Rendered session/new.html.erb within layouts/application (1.6ms)
+Completed 200 OK in 39ms (Views: 35.9ms | ActiveRecord: 0.2ms)
+
+
+Started DELETE "/login" for ::1 at 2020-02-25 17:18:24 +1100
+Processing by SessionController#destroy as HTML
+  Parameters: {"authenticity_token"=>"CRrdEmgery5nvNicZSRJbG3L1Z01xe+Lr6nE7MOVeAs9CJ0/u1lJUyNv+kxb9Tcj0jjw1zxd7z4MOAvIlqxExw=="}
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 12], ["LIMIT", 1]]
+  ↳ app/controllers/application_controller.rb:6
+Redirected to http://localhost:3000/login
+Completed 302 Found in 2ms (ActiveRecord: 0.2ms)
+
+
+Started GET "/login" for ::1 at 2020-02-25 17:18:24 +1100
+Processing by SessionController#new as HTML
+  Rendering session/new.html.erb within layouts/application
+  Rendered session/new.html.erb within layouts/application (1.4ms)
+Completed 200 OK in 29ms (Views: 26.4ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/login" for ::1 at 2020-02-25 17:18:29 +1100
+Processing by SessionController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"EagjtXZDfrN5UvlgSQN5FP+IK1iWJfVhde7karD9PXglumOYpQSYzj2B27B30gdbQHsOEp+99dTWfytO5cQBtA==", "email"=>"ram@gmail.com", "password"=>"[FILTERED]", "commit"=>"Login"}
+  [1m[36mUser Load (0.3ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."email" = ? LIMIT ?[0m  [["email", "ram@gmail.com"], ["LIMIT", 1]]
+  ↳ app/controllers/session_controller.rb:6
+Redirected to http://localhost:3000/
+Completed 302 Found in 265ms (ActiveRecord: 0.3ms)
+
+
+Started GET "/" for ::1 at 2020-02-25 17:18:30 +1100
+Processing by UsersController#home as HTML
+  [1m[36mUser Load (0.1ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 12], ["LIMIT", 1]]
+  ↳ app/controllers/application_controller.rb:6
+  Rendering users/home.html.erb within layouts/application
+  Rendered users/home.html.erb within layouts/application (0.4ms)
+Completed 200 OK in 23ms (Views: 20.8ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/" for ::1 at 2020-02-25 18:18:26 +1100
+Processing by UsersController#home as HTML
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 12], ["LIMIT", 1]]
+  ↳ app/controllers/application_controller.rb:6
+  Rendering users/home.html.erb within layouts/application
+  Rendered users/home.html.erb within layouts/application (0.5ms)
+Completed 200 OK in 34ms (Views: 31.1ms | ActiveRecord: 0.2ms)
+
+
+Started DELETE "/login" for ::1 at 2020-02-25 18:18:29 +1100
+Processing by SessionController#destroy as HTML
+  Parameters: {"authenticity_token"=>"po796rAI9Qq8sMcoYfwfAFI2Im5XfquQ+pu5qCVZuFOSnL3HY08Td/hj5fhfLWFP7cUHJF7mqyVZCnaMcGCEnw=="}
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 12], ["LIMIT", 1]]
+  ↳ app/controllers/application_controller.rb:6
+Redirected to http://localhost:3000/login
+Completed 302 Found in 2ms (ActiveRecord: 0.2ms)
+
+
+Started GET "/login" for ::1 at 2020-02-25 18:18:30 +1100
+Processing by SessionController#new as HTML
+  Rendering session/new.html.erb within layouts/application
+  Rendered session/new.html.erb within layouts/application (1.4ms)
+Completed 200 OK in 27ms (Views: 24.4ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/login" for ::1 at 2020-02-25 18:18:38 +1100
+Processing by SessionController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"RVjj2JrzTbncWW1NVA9r6pxHrzzCE9xmE6Dy96yjpLxxSqP1SbSrxJiKT51q3hWlI7SKdsuL3NOwMT3T+ZqYcA==", "email"=>"kevinosborn31@gmail.com", "password"=>"[FILTERED]", "commit"=>"Login"}
+  [1m[36mUser Load (0.3ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."email" = ? LIMIT ?[0m  [["email", "kevinosborn31@gmail.com"], ["LIMIT", 1]]
+  ↳ app/controllers/session_controller.rb:6
+Redirected to http://localhost:3000/
+Completed 302 Found in 268ms (ActiveRecord: 0.3ms)
+
+
+Started GET "/" for ::1 at 2020-02-25 18:18:39 +1100
+Processing by UsersController#home as HTML
+  [1m[36mUser Load (0.1ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 11], ["LIMIT", 1]]
+  ↳ app/controllers/application_controller.rb:6
+  Rendering users/home.html.erb within layouts/application
+  Rendered users/home.html.erb within layouts/application (0.5ms)
+Completed 200 OK in 22ms (Views: 19.7ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/" for ::1 at 2020-02-25 18:18:40 +1100
+Processing by UsersController#home as HTML
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 11], ["LIMIT", 1]]
+  ↳ app/controllers/application_controller.rb:6
+  Rendering users/home.html.erb within layouts/application
+  Rendered users/home.html.erb within layouts/application (0.5ms)
+Completed 200 OK in 23ms (Views: 20.2ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/" for ::1 at 2020-02-25 18:18:41 +1100
+Processing by UsersController#home as HTML
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 11], ["LIMIT", 1]]
+  ↳ app/controllers/application_controller.rb:6
+  Rendering users/home.html.erb within layouts/application
+  Rendered users/home.html.erb within layouts/application (0.5ms)
+Completed 200 OK in 22ms (Views: 19.9ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/" for ::1 at 2020-02-25 18:20:53 +1100
+Processing by UsersController#home as HTML
+  [1m[36mUser Load (0.1ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 11], ["LIMIT", 1]]
+  ↳ app/controllers/application_controller.rb:6
+  Rendering users/home.html.erb within layouts/application
+  Rendered users/home.html.erb within layouts/application (0.5ms)
+Completed 200 OK in 33ms (Views: 30.0ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/" for ::1 at 2020-02-25 18:22:19 +1100
+Processing by UsersController#home as HTML
+  [1m[36mUser Load (0.1ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 11], ["LIMIT", 1]]
+  ↳ app/controllers/application_controller.rb:6
+  Rendering users/home.html.erb within layouts/application
+  Rendered users/home.html.erb within layouts/application (0.6ms)
+Completed 200 OK in 25ms (Views: 22.6ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/" for ::1 at 2020-02-25 18:25:04 +1100
+Processing by UsersController#home as HTML
+  [1m[36mUser Load (0.1ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 11], ["LIMIT", 1]]
+  ↳ app/controllers/application_controller.rb:6
+  Rendering users/home.html.erb within layouts/application
+  Rendered users/home.html.erb within layouts/application (0.6ms)
+Completed 200 OK in 28ms (Views: 25.0ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/blood_sugars" for ::1 at 2020-02-25 18:25:20 +1100
+Processing by BloodSugarsController#index as HTML
+  [1m[36mUser Load (0.3ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 11], ["LIMIT", 1]]
+  ↳ app/controllers/application_controller.rb:6
+  Rendering blood_sugars/index.html.erb within layouts/application
+  [1m[36mBloodSugar Load (0.2ms)[0m  [1m[34mSELECT "blood_sugars".* FROM "blood_sugars"[0m
+  ↳ app/views/blood_sugars/index.html.erb:16
+  Rendered blood_sugars/index.html.erb within layouts/application (21.0ms)
+Completed 200 OK in 56ms (Views: 46.2ms | ActiveRecord: 1.7ms)
+
+
+Started GET "/blood_sugars" for ::1 at 2020-02-25 18:25:27 +1100
+Processing by BloodSugarsController#index as HTML
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 11], ["LIMIT", 1]]
+  ↳ app/controllers/application_controller.rb:6
+  Rendering blood_sugars/index.html.erb within layouts/application
+  [1m[36mBloodSugar Load (0.2ms)[0m  [1m[34mSELECT "blood_sugars".* FROM "blood_sugars"[0m
+  ↳ app/views/blood_sugars/index.html.erb:16
+  Rendered blood_sugars/index.html.erb within layouts/application (4.7ms)
+Completed 200 OK in 32ms (Views: 29.0ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/glycemic_indeces" for ::1 at 2020-02-25 18:25:31 +1100
+  
+ActionController::RoutingError (No route matches [GET] "/glycemic_indeces"):
+  
+actionpack (5.2.4.1) lib/action_dispatch/middleware/debug_exceptions.rb:65:in `call'
+web-console (3.7.0) lib/web_console/middleware.rb:135:in `call_app'
+web-console (3.7.0) lib/web_console/middleware.rb:30:in `block in call'
+web-console (3.7.0) lib/web_console/middleware.rb:20:in `catch'
+web-console (3.7.0) lib/web_console/middleware.rb:20:in `call'
+actionpack (5.2.4.1) lib/action_dispatch/middleware/show_exceptions.rb:33:in `call'
+railties (5.2.4.1) lib/rails/rack/logger.rb:38:in `call_app'
+railties (5.2.4.1) lib/rails/rack/logger.rb:26:in `block in call'
+activesupport (5.2.4.1) lib/active_support/tagged_logging.rb:71:in `block in tagged'
+activesupport (5.2.4.1) lib/active_support/tagged_logging.rb:28:in `tagged'
+activesupport (5.2.4.1) lib/active_support/tagged_logging.rb:71:in `tagged'
+railties (5.2.4.1) lib/rails/rack/logger.rb:26:in `call'
+sprockets-rails (3.2.1) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (5.2.4.1) lib/action_dispatch/middleware/remote_ip.rb:81:in `call'
+actionpack (5.2.4.1) lib/action_dispatch/middleware/request_id.rb:27:in `call'
+rack (2.2.2) lib/rack/method_override.rb:24:in `call'
+rack (2.2.2) lib/rack/runtime.rb:22:in `call'
+activesupport (5.2.4.1) lib/active_support/cache/strategy/local_cache_middleware.rb:29:in `call'
+actionpack (5.2.4.1) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (5.2.4.1) lib/action_dispatch/middleware/static.rb:127:in `call'
+rack (2.2.2) lib/rack/sendfile.rb:110:in `call'
+railties (5.2.4.1) lib/rails/engine.rb:524:in `call'
+puma (3.12.2) lib/puma/configuration.rb:227:in `call'
+puma (3.12.2) lib/puma/server.rb:674:in `handle_request'
+puma (3.12.2) lib/puma/server.rb:476:in `process_client'
+puma (3.12.2) lib/puma/server.rb:334:in `block in run'
+puma (3.12.2) lib/puma/thread_pool.rb:135:in `block in spawn_thread'
+Started GET "/glycemic_indices" for ::1 at 2020-02-25 18:25:39 +1100
+Processing by GlycemicIndicesController#index as HTML
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 11], ["LIMIT", 1]]
+  ↳ app/controllers/application_controller.rb:6
+  Rendering glycemic_indices/index.html.erb within layouts/application
+  [1m[36mGlycemicIndex Load (0.3ms)[0m  [1m[34mSELECT "glycemic_indices".* FROM "glycemic_indices"[0m
+  ↳ app/views/glycemic_indices/index.html.erb:15
+  Rendered glycemic_indices/index.html.erb within layouts/application (12.3ms)
+Completed 200 OK in 61ms (Views: 54.4ms | ActiveRecord: 1.2ms)
+
+
+Started GET "/glycemic_indices" for ::1 at 2020-02-25 18:25:48 +1100
+Processing by GlycemicIndicesController#index as HTML
+  [1m[36mUser Load (0.3ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 11], ["LIMIT", 1]]
+  ↳ app/controllers/application_controller.rb:6
+  Rendering glycemic_indices/index.html.erb within layouts/application
+  [1m[36mGlycemicIndex Load (0.2ms)[0m  [1m[34mSELECT "glycemic_indices".* FROM "glycemic_indices"[0m
+  ↳ app/views/glycemic_indices/index.html.erb:15
+  Rendered glycemic_indices/index.html.erb within layouts/application (4.3ms)
+Completed 200 OK in 36ms (Views: 31.7ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/medications" for ::1 at 2020-02-25 18:25:51 +1100
+Processing by MedicationsController#index as HTML
+  [1m[36mUser Load (0.1ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 11], ["LIMIT", 1]]
+  ↳ app/controllers/application_controller.rb:6
+  Rendering medications/index.html.erb within layouts/application
+  [1m[36mMedication Load (0.2ms)[0m  [1m[34mSELECT "medications".* FROM "medications"[0m
+  ↳ app/views/medications/index.html.erb:16
+  Rendered medications/index.html.erb within layouts/application (9.2ms)
+Completed 200 OK in 40ms (Views: 35.1ms | ActiveRecord: 0.8ms)
+
+
+Started GET "/glycemic_indices" for ::1 at 2020-02-25 18:25:52 +1100
+Processing by GlycemicIndicesController#index as HTML
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 11], ["LIMIT", 1]]
+  ↳ app/controllers/application_controller.rb:6
+  Rendering glycemic_indices/index.html.erb within layouts/application
+  [1m[36mGlycemicIndex Load (0.1ms)[0m  [1m[34mSELECT "glycemic_indices".* FROM "glycemic_indices"[0m
+  ↳ app/views/glycemic_indices/index.html.erb:15
+  Rendered glycemic_indices/index.html.erb within layouts/application (2.2ms)
+Completed 200 OK in 29ms (Views: 26.2ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/blood_sugars" for ::1 at 2020-02-25 18:25:52 +1100
+Processing by BloodSugarsController#index as HTML
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 11], ["LIMIT", 1]]
+  ↳ app/controllers/application_controller.rb:6
+  Rendering blood_sugars/index.html.erb within layouts/application
+  [1m[36mBloodSugar Load (0.1ms)[0m  [1m[34mSELECT "blood_sugars".* FROM "blood_sugars"[0m
+  ↳ app/views/blood_sugars/index.html.erb:16
+  Rendered blood_sugars/index.html.erb within layouts/application (3.7ms)
+Completed 200 OK in 29ms (Views: 26.0ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/blood_sugars" for ::1 at 2020-02-25 18:25:53 +1100
+Processing by BloodSugarsController#index as HTML
+  [1m[36mUser Load (0.1ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 11], ["LIMIT", 1]]
+  ↳ app/controllers/application_controller.rb:6
+  Rendering blood_sugars/index.html.erb within layouts/application
+  [1m[36mBloodSugar Load (0.1ms)[0m  [1m[34mSELECT "blood_sugars".* FROM "blood_sugars"[0m
+  ↳ app/views/blood_sugars/index.html.erb:16
+  Rendered blood_sugars/index.html.erb within layouts/application (3.9ms)
+Completed 200 OK in 37ms (Views: 33.9ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/questions" for ::1 at 2020-02-25 18:25:53 +1100
+Processing by QuestionsController#index as HTML
+  [1m[36mUser Load (0.1ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 11], ["LIMIT", 1]]
+  ↳ app/controllers/application_controller.rb:6
+  Rendering questions/index.html.erb within layouts/application
+  [1m[36mQuestion Load (0.2ms)[0m  [1m[34mSELECT "questions".* FROM "questions"[0m
+  ↳ app/views/questions/index.html.erb:15
+  Rendered questions/index.html.erb within layouts/application (8.9ms)
+Completed 200 OK in 35ms (Views: 29.3ms | ActiveRecord: 1.0ms)
+
+
+Started GET "/users" for ::1 at 2020-02-25 18:25:55 +1100
+Processing by UsersController#index as HTML
+  [1m[36mUser Load (0.1ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 11], ["LIMIT", 1]]
+  ↳ app/controllers/application_controller.rb:6
+  Rendering users/index.html.erb within layouts/application
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT "users".* FROM "users"[0m
+  ↳ app/views/users/index.html.erb:23
+  Rendered users/index.html.erb within layouts/application (3.0ms)
+Completed 200 OK in 31ms (Views: 28.0ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/users" for ::1 at 2020-02-25 18:26:09 +1100
+Processing by UsersController#index as HTML
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 11], ["LIMIT", 1]]
+  ↳ app/controllers/application_controller.rb:6
+  Rendering users/index.html.erb within layouts/application
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT "users".* FROM "users"[0m
+  ↳ app/views/users/index.html.erb:23
+  Rendered users/index.html.erb within layouts/application (3.2ms)
+Completed 200 OK in 29ms (Views: 26.2ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/users" for ::1 at 2020-02-25 18:34:50 +1100
+Processing by UsersController#index as HTML
+  [1m[36mUser Load (0.3ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 11], ["LIMIT", 1]]
+  ↳ app/controllers/application_controller.rb:6
+  Rendering users/index.html.erb within layouts/application
+  [1m[36mUser Load (0.3ms)[0m  [1m[34mSELECT "users".* FROM "users"[0m
+  ↳ app/views/users/index.html.erb:23
+  Rendered users/index.html.erb within layouts/application (4.6ms)
+Completed 200 OK in 44ms (Views: 39.4ms | ActiveRecord: 0.6ms)
+
+
+Started GET "/users/12" for ::1 at 2020-02-25 18:34:56 +1100
+Processing by UsersController#show as HTML
+  Parameters: {"id"=>"12"}
+  [1m[36mUser Load (0.1ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 11], ["LIMIT", 1]]
+  ↳ app/controllers/application_controller.rb:6
+  [1m[36mUser Load (0.1ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 12], ["LIMIT", 1]]
+  ↳ app/controllers/users_controller.rb:66
+  Rendering users/show.html.erb within layouts/application
+  Rendered users/show.html.erb within layouts/application (1.0ms)
+Completed 200 OK in 32ms (Views: 27.9ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/users/12" for ::1 at 2020-02-25 18:35:24 +1100
+Processing by UsersController#show as HTML
+  Parameters: {"id"=>"12"}
+  [1m[36mUser Load (0.1ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 11], ["LIMIT", 1]]
+  ↳ app/controllers/application_controller.rb:6
+  [1m[36mUser Load (0.1ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 12], ["LIMIT", 1]]
+  ↳ app/controllers/users_controller.rb:66
+  Rendering users/show.html.erb within layouts/application
+  Rendered users/show.html.erb within layouts/application (1.5ms)
+Completed 200 OK in 41ms (Views: 37.6ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/users/12" for ::1 at 2020-02-25 18:35:25 +1100
+Processing by UsersController#show as HTML
+  Parameters: {"id"=>"12"}
+  [1m[36mUser Load (0.1ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 11], ["LIMIT", 1]]
+  ↳ app/controllers/application_controller.rb:6
+  [1m[36mUser Load (0.1ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 12], ["LIMIT", 1]]
+  ↳ app/controllers/users_controller.rb:66
+  Rendering users/show.html.erb within layouts/application
+  Rendered users/show.html.erb within layouts/application (2.0ms)
+Completed 200 OK in 47ms (Views: 44.2ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/users/12" for ::1 at 2020-02-25 18:35:25 +1100
+Processing by UsersController#show as HTML
+  Parameters: {"id"=>"12"}
+  [1m[36mUser Load (0.1ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 11], ["LIMIT", 1]]
+  ↳ app/controllers/application_controller.rb:6
+  [1m[36mUser Load (0.1ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 12], ["LIMIT", 1]]
+  ↳ app/controllers/users_controller.rb:66
+  Rendering users/show.html.erb within layouts/application
+  Rendered users/show.html.erb within layouts/application (1.5ms)
+Completed 200 OK in 54ms (Views: 50.3ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/users/12" for ::1 at 2020-02-25 18:37:07 +1100
+Processing by UsersController#show as HTML
+  Parameters: {"id"=>"12"}
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 11], ["LIMIT", 1]]
+  ↳ app/controllers/application_controller.rb:6
+  [1m[36mUser Load (0.1ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 12], ["LIMIT", 1]]
+  ↳ app/controllers/users_controller.rb:66
+  Rendering users/show.html.erb within layouts/application
+  Rendered users/show.html.erb within layouts/application (2.4ms)
+Completed 200 OK in 36ms (Views: 30.9ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/questions" for ::1 at 2020-02-25 18:37:42 +1100
+Processing by QuestionsController#index as HTML
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 11], ["LIMIT", 1]]
+  ↳ app/controllers/application_controller.rb:6
+  Rendering questions/index.html.erb within layouts/application
+  [1m[36mQuestion Load (0.3ms)[0m  [1m[34mSELECT "questions".* FROM "questions"[0m
+  ↳ app/views/questions/index.html.erb:15
+  Rendered questions/index.html.erb within layouts/application (4.9ms)
+Completed 200 OK in 37ms (Views: 32.9ms | ActiveRecord: 0.5ms)
+
+
+Started DELETE "/login" for ::1 at 2020-02-25 18:37:46 +1100
+Processing by SessionController#destroy as HTML
+  Parameters: {"authenticity_token"=>"SyVZS9qFZa1YxaIauLlS5VDjswYmewi7PJj0DoGqO99/NxlmCcKD0BwWgMqGaCyq7xCWTC/jCA6fCTsq1JMHEw=="}
+  [1m[36mUser Load (0.1ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 11], ["LIMIT", 1]]
+  ↳ app/controllers/application_controller.rb:6
+Redirected to http://localhost:3000/login
+Completed 302 Found in 2ms (ActiveRecord: 0.1ms)
+
+
+Started GET "/login" for ::1 at 2020-02-25 18:37:46 +1100
+Processing by SessionController#new as HTML
+  Rendering session/new.html.erb within layouts/application
+  Rendered session/new.html.erb within layouts/application (1.2ms)
+Completed 500 Internal Server Error in 30ms (ActiveRecord: 0.0ms)
+
+
+  
+ActionView::Template::Error (undefined method `user_type' for nil:NilClass):
+    25:     <%= link_to "Logout", login_path, method: 'delete', :class => "mdl-button", :onClick => 'alert("You have been logged out")'%>
+    26:     <% end %>
+    27: 
+    28:     <% if @current_user.user_type === 'admin' %>
+    29:     <nav>
+    30:       <ul>
+    31:         <li><%= link_to "Questions", '/questions' %></li>
+  
+app/views/layouts/application.html.erb:28:in `_app_views_layouts_application_html_erb___473544006935110693_70365071936240'
+Started GET "/login" for ::1 at 2020-02-25 18:37:52 +1100
+Processing by SessionController#new as HTML
+  Rendering session/new.html.erb within layouts/application
+  Rendered session/new.html.erb within layouts/application (1.3ms)
+Completed 500 Internal Server Error in 35ms (ActiveRecord: 0.0ms)
+
+
+  
+ActionView::Template::Error (undefined method `user_type' for nil:NilClass):
+    25:     <%= link_to "Logout", login_path, method: 'delete', :class => "mdl-button", :onClick => 'alert("You have been logged out")'%>
+    26:     <% end %>
+    27: 
+    28:     <% if @current_user.user_type === 'admin' %>
+    29:     <nav>
+    30:       <ul>
+    31:         <li><%= link_to "Questions", '/questions' %></li>
+  
+app/views/layouts/application.html.erb:28:in `_app_views_layouts_application_html_erb___473544006935110693_70365071298240'
+Started GET "/login" for ::1 at 2020-02-25 18:37:53 +1100
+Processing by SessionController#new as HTML
+  Rendering session/new.html.erb within layouts/application
+  Rendered session/new.html.erb within layouts/application (1.0ms)
+Completed 500 Internal Server Error in 30ms (ActiveRecord: 0.0ms)
+
+
+  
+ActionView::Template::Error (undefined method `user_type' for nil:NilClass):
+    25:     <%= link_to "Logout", login_path, method: 'delete', :class => "mdl-button", :onClick => 'alert("You have been logged out")'%>
+    26:     <% end %>
+    27: 
+    28:     <% if @current_user.user_type === 'admin' %>
+    29:     <nav>
+    30:       <ul>
+    31:         <li><%= link_to "Questions", '/questions' %></li>
+  
+app/views/layouts/application.html.erb:28:in `_app_views_layouts_application_html_erb___473544006935110693_70365070432080'
+Started GET "/login" for ::1 at 2020-02-25 18:37:54 +1100
+Processing by SessionController#new as HTML
+  Rendering session/new.html.erb within layouts/application
+  Rendered session/new.html.erb within layouts/application (1.1ms)
+Completed 500 Internal Server Error in 28ms (ActiveRecord: 0.0ms)
+
+
+  
+ActionView::Template::Error (undefined method `user_type' for nil:NilClass):
+    25:     <%= link_to "Logout", login_path, method: 'delete', :class => "mdl-button", :onClick => 'alert("You have been logged out")'%>
+    26:     <% end %>
+    27: 
+    28:     <% if @current_user.user_type === 'admin' %>
+    29:     <nav>
+    30:       <ul>
+    31:         <li><%= link_to "Questions", '/questions' %></li>
+  
+app/views/layouts/application.html.erb:28:in `_app_views_layouts_application_html_erb___473544006935110693_70365014886820'
+Started GET "/login" for ::1 at 2020-02-25 18:39:06 +1100
+Processing by SessionController#new as HTML
+  Rendering session/new.html.erb within layouts/application
+  Rendered session/new.html.erb within layouts/application (1.4ms)
+Completed 200 OK in 28ms (Views: 25.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/login" for ::1 at 2020-02-25 18:39:08 +1100
+Processing by SessionController#new as HTML
+  Rendering session/new.html.erb within layouts/application
+  Rendered session/new.html.erb within layouts/application (1.4ms)
+Completed 500 Internal Server Error in 37ms (ActiveRecord: 0.0ms)
+
+
+  
+ActionView::Template::Error (undefined method `user_type' for nil:NilClass):
+    25:     <%= link_to "Logout", login_path, method: 'delete', :class => "mdl-button", :onClick => 'alert("You have been logged out")'%>
+    26:     <% end %>
+    27: 
+    28:     <% if @current_user.user_type === 'admin' %>
+    29:     <nav>
+    30:       <ul>
+    31:         <li><%= link_to "Questions", '/questions' %></li>
+  
+app/views/layouts/application.html.erb:28:in `_app_views_layouts_application_html_erb___473544006935110693_70365026616700'
+Started GET "/login" for ::1 at 2020-02-25 18:39:16 +1100
+Processing by SessionController#new as HTML
+  Rendering session/new.html.erb within layouts/application
+  Rendered session/new.html.erb within layouts/application (1.7ms)
+Completed 500 Internal Server Error in 29ms (ActiveRecord: 0.0ms)
+
+
+  
+ActionView::Template::Error (undefined method `user_type' for nil:NilClass):
+    27: 
+    28: 
+    29: 
+    30:     <% if @current_user.user_type === 'doctor' %>
+    31:     <nav>
+    32:       <ul>
+    33:         <li><%= link_to "Home", '/' %></li>
+  
+app/views/layouts/application.html.erb:30:in `_app_views_layouts_application_html_erb___473544006935110693_70365063076760'
+Started GET "/login" for ::1 at 2020-02-25 18:39:19 +1100
+Processing by SessionController#new as HTML
+  Rendering session/new.html.erb within layouts/application
+  Rendered session/new.html.erb within layouts/application (1.6ms)
+Completed 500 Internal Server Error in 31ms (ActiveRecord: 0.0ms)
+
+
+  
+ActionView::Template::Error (undefined method `user_type' for nil:NilClass):
+    25:     <%= link_to "Logout", login_path, method: 'delete', :class => "mdl-button", :onClick => 'alert("You have been logged out")'%>
+    26:     <% end %>
+    27: 
+    28:     <% if @current_user.user_type === 'admin' %>
+    29:     <nav>
+    30:       <ul>
+    31:         <li><%= link_to "Questions", '/questions' %></li>
+  
+app/views/layouts/application.html.erb:28:in `_app_views_layouts_application_html_erb___473544006935110693_70365009894860'
+Started GET "/login" for ::1 at 2020-02-25 18:42:10 +1100
+Processing by SessionController#new as HTML
+  Rendering session/new.html.erb within layouts/application
+  Rendered session/new.html.erb within layouts/application (1.5ms)
+Completed 200 OK in 32ms (Views: 29.0ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/login" for ::1 at 2020-02-25 18:42:18 +1100
+Processing by SessionController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"t6TvwZBF9e9A/gxQhuTCT0VBpgMb3d+A1jzCBr+ESs6Dtq/sQwITkgQtLoC4NbwA+rKDSRJF3zV1rQ0i6r12Ag==", "email"=>"ram@gmail.com", "password"=>"[FILTERED]", "commit"=>"Login"}
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."email" = ? LIMIT ?[0m  [["email", "ram@gmail.com"], ["LIMIT", 1]]
+  ↳ app/controllers/session_controller.rb:6
+Redirected to http://localhost:3000/
+Completed 302 Found in 277ms (ActiveRecord: 0.2ms)
+
+
+Started GET "/" for ::1 at 2020-02-25 18:42:18 +1100
+Processing by UsersController#home as HTML
+  [1m[36mUser Load (0.1ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 12], ["LIMIT", 1]]
+  ↳ app/controllers/application_controller.rb:6
+  Rendering users/home.html.erb within layouts/application
+  Rendered users/home.html.erb within layouts/application (0.3ms)
+Completed 500 Internal Server Error in 41ms (ActiveRecord: 0.1ms)
+
+
+  
+ActionView::Template::Error (No route matches {:action=>"edit", :controller=>"users"}, missing required keys: [:id]):
+    40:     <nav>
+    41:       <ul>
+    42:         <li><%= link_to "Home", '/' %></li>
+    43:         <li><%= link_to "Edit Profile", edit_user_path %></li>
+    44:         <li><%= link_to "Questions", '/questions' %></li>
+    45:       </ul>
+    46:     </nav>
+  
+app/views/layouts/application.html.erb:43:in `_app_views_layouts_application_html_erb___473544006935110693_70365027041820'
+Started GET "/" for ::1 at 2020-02-25 18:43:53 +1100
+Processing by UsersController#home as HTML
+  [1m[36mUser Load (0.3ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 12], ["LIMIT", 1]]
+  ↳ app/controllers/application_controller.rb:6
+  Rendering users/home.html.erb within layouts/application
+  Rendered users/home.html.erb within layouts/application (0.7ms)
+Completed 500 Internal Server Error in 75ms (ActiveRecord: 1.1ms)
+
+
+  
+ActionView::Template::Error (No route matches {:action=>"edit", :controller=>"users"}, missing required keys: [:id]):
+    40:     <nav>
+    41:       <ul>
+    42:         <li><%= link_to "Home", '/' %></li>
+    43:         <li><%= link_to "Edit Profile", edit_user_path %></li>
+    44:         <li><%= link_to "Questions", '/questions' %></li>
+    45:       </ul>
+    46:     </nav>
+  
+app/views/layouts/application.html.erb:43:in `_app_views_layouts_application_html_erb___473544006935110693_70365072745980'
+Started GET "/" for ::1 at 2020-02-25 18:43:56 +1100
+Processing by UsersController#home as HTML
+  [1m[36mUser Load (0.1ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 12], ["LIMIT", 1]]
+  ↳ app/controllers/application_controller.rb:6
+  Rendering users/home.html.erb within layouts/application
+  Rendered users/home.html.erb within layouts/application (0.4ms)
+Completed 500 Internal Server Error in 28ms (ActiveRecord: 0.1ms)
+
+
+  
+ActionView::Template::Error (No route matches {:action=>"edit", :controller=>"users"}, missing required keys: [:id]):
+    40:     <nav>
+    41:       <ul>
+    42:         <li><%= link_to "Home", '/' %></li>
+    43:         <!-- <li><%= link_to "Edit Profile", edit_user_path %></li> -->
+    44:         <li><%= link_to "Questions", '/questions' %></li>
+    45:       </ul>
+    46:     </nav>
+  
+app/views/layouts/application.html.erb:43:in `_app_views_layouts_application_html_erb___473544006935110693_70365082635160'
+Started GET "/" for ::1 at 2020-02-25 18:44:00 +1100
+Processing by UsersController#home as HTML
+  [1m[36mUser Load (0.1ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 12], ["LIMIT", 1]]
+  ↳ app/controllers/application_controller.rb:6
+  Rendering users/home.html.erb within layouts/application
+  Rendered users/home.html.erb within layouts/application (0.3ms)
+Completed 200 OK in 27ms (Views: 23.9ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/" for ::1 at 2020-02-25 18:44:48 +1100
+Processing by UsersController#home as HTML
+  [1m[36mUser Load (0.1ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 12], ["LIMIT", 1]]
+  ↳ app/controllers/application_controller.rb:6
+  Rendering users/home.html.erb within layouts/application
+  Rendered users/home.html.erb within layouts/application (0.4ms)
+Completed 200 OK in 27ms (Views: 24.9ms | ActiveRecord: 0.1ms)
+
+
+Started DELETE "/login" for ::1 at 2020-02-25 18:44:51 +1100
+Processing by SessionController#destroy as HTML
+  Parameters: {"authenticity_token"=>"r3rftXL7EC4oVt3okixcQ5ctWh8xq7B0w5+siS0vzRmbaJ+Yobz2U2yF/zis/SIMKN5/VTgzsMFgDmOteBbx1Q=="}
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 12], ["LIMIT", 1]]
+  ↳ app/controllers/application_controller.rb:6
+Redirected to http://localhost:3000/login
+Completed 302 Found in 2ms (ActiveRecord: 0.2ms)
+
+
+Started GET "/login" for ::1 at 2020-02-25 18:44:51 +1100
+Processing by SessionController#new as HTML
+  Rendering session/new.html.erb within layouts/application
+  Rendered session/new.html.erb within layouts/application (1.3ms)
+Completed 200 OK in 26ms (Views: 23.4ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/login" for ::1 at 2020-02-25 18:47:50 +1100
+Processing by SessionController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"90cyOpqokZlJOxBzVuDxvs9AXMJYk54kndJ25ZbCFpvDVXIXSe935A3oMqNoMY/xcLN5iFELnpE+Q7nBw/sqVw==", "email"=>"jude@gmail.com", "password"=>"[FILTERED]", "commit"=>"Login"}
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."email" = ? LIMIT ?[0m  [["email", "jude@gmail.com"], ["LIMIT", 1]]
+  ↳ app/controllers/session_controller.rb:6
+Redirected to http://localhost:3000/login
+Completed 302 Found in 3ms (ActiveRecord: 0.2ms)
+
+
+Started GET "/login" for ::1 at 2020-02-25 18:47:50 +1100
+Processing by SessionController#new as HTML
+  Rendering session/new.html.erb within layouts/application
+  Rendered session/new.html.erb within layouts/application (1.6ms)
+Completed 200 OK in 33ms (Views: 30.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/login" for ::1 at 2020-02-25 18:48:15 +1100
+Processing by SessionController#new as HTML
+  Rendering session/new.html.erb within layouts/application
+  Rendered session/new.html.erb within layouts/application (2.9ms)
+Completed 200 OK in 32ms (Views: 29.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/login" for ::1 at 2020-02-25 18:48:24 +1100
+Processing by SessionController#new as HTML
+  Rendering session/new.html.erb within layouts/application
+  Rendered session/new.html.erb within layouts/application (1.1ms)
+Completed 500 Internal Server Error in 9ms (ActiveRecord: 0.0ms)
+
+
+  
+SyntaxError (/Users/kevinosborn/Desktop/sei/project/endo-connect/app/views/session/new.html.erb:16: syntax error, unexpected tIDENTIFIER, expecting ')'
+nk_to "Register" new_user_path );@output_buffer.safe_append=
+                              ^):
+  
+app/views/session/new.html.erb:16: syntax error, unexpected tIDENTIFIER, expecting ')'
+Started GET "/login" for ::1 at 2020-02-25 18:48:54 +1100
+Processing by SessionController#new as HTML
+  Rendering session/new.html.erb within layouts/application
+  Rendered session/new.html.erb within layouts/application (0.9ms)
+Completed 500 Internal Server Error in 8ms (ActiveRecord: 0.0ms)
+
+
+  
+SyntaxError (/Users/kevinosborn/Desktop/sei/project/endo-connect/app/views/session/new.html.erb:16: syntax error, unexpected tIDENTIFIER, expecting ')'
+nk_to 'Register' new_user_path );@output_buffer.safe_append=
+                              ^):
+  
+app/views/session/new.html.erb:16: syntax error, unexpected tIDENTIFIER, expecting ')'
+Started GET "/login" for ::1 at 2020-02-25 18:48:56 +1100
+Processing by SessionController#new as HTML
+  Rendering session/new.html.erb within layouts/application
+  Rendered session/new.html.erb within layouts/application (0.8ms)
+Completed 500 Internal Server Error in 7ms (ActiveRecord: 0.0ms)
+
+
+  
+SyntaxError (/Users/kevinosborn/Desktop/sei/project/endo-connect/app/views/session/new.html.erb:16: syntax error, unexpected tIDENTIFIER, expecting ')'
+nk_to 'Register' new_user_path );@output_buffer.safe_append=
+                              ^):
+  
+app/views/session/new.html.erb:16: syntax error, unexpected tIDENTIFIER, expecting ')'
+Started GET "/login" for ::1 at 2020-02-25 18:49:11 +1100
+Processing by SessionController#new as HTML
+  Rendering session/new.html.erb within layouts/application
+  Rendered session/new.html.erb within layouts/application (1.5ms)
+Completed 200 OK in 32ms (Views: 29.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/users/new" for ::1 at 2020-02-25 18:49:13 +1100
+Processing by UsersController#new as HTML
+  Rendering users/new.html.erb within layouts/application
+  Rendered users/_form.html.erb (27.0ms)
+  Rendered users/new.html.erb within layouts/application (29.3ms)
+Completed 200 OK in 58ms (Views: 54.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/users/new" for ::1 at 2020-02-25 18:50:40 +1100
+Processing by UsersController#new as HTML
+  Rendering users/new.html.erb within layouts/application
+  Rendered users/_form.html.erb (6.5ms)
+  Rendered users/new.html.erb within layouts/application (9.9ms)
+Completed 200 OK in 39ms (Views: 35.3ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/login" for ::1 at 2020-02-25 19:00:28 +1100
+Processing by SessionController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"Hz1uiygwanCzAK75DgifFxL4ZlbmAWd7D1P2v+tTKvUrLy6m+3eMDffTjCkw2eFYrQtDHO+ZZ86swjmbvmoWOQ==", "email"=>"ram@gmail.com", "password"=>"[FILTERED]", "commit"=>"Login"}
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."email" = ? LIMIT ?[0m  [["email", "ram@gmail.com"], ["LIMIT", 1]]
+  ↳ app/controllers/session_controller.rb:6
+Redirected to http://localhost:3000/
+Completed 302 Found in 282ms (ActiveRecord: 0.2ms)
+
+
+Started GET "/" for ::1 at 2020-02-25 19:00:29 +1100
+Processing by UsersController#home as HTML
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 12], ["LIMIT", 1]]
+  ↳ app/controllers/application_controller.rb:6
+  Rendering users/home.html.erb within layouts/application
+  Rendered users/home.html.erb within layouts/application (0.4ms)
+Completed 200 OK in 22ms (Views: 19.9ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/" for ::1 at 2020-02-25 19:03:50 +1100
+Processing by UsersController#home as HTML
+  [1m[36mUser Load (0.1ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 12], ["LIMIT", 1]]
+  ↳ app/controllers/application_controller.rb:6
+  Rendering users/home.html.erb within layouts/application
+  Rendered users/home.html.erb within layouts/application (0.6ms)
+Completed 200 OK in 34ms (Views: 31.9ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/" for ::1 at 2020-02-25 19:03:51 +1100
+Processing by UsersController#home as HTML
+  [1m[36mUser Load (0.1ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 12], ["LIMIT", 1]]
+  ↳ app/controllers/application_controller.rb:6
+  Rendering users/home.html.erb within layouts/application
+  Rendered users/home.html.erb within layouts/application (0.5ms)
+Completed 200 OK in 25ms (Views: 22.3ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/" for ::1 at 2020-02-25 19:03:55 +1100
+Processing by UsersController#home as HTML
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 12], ["LIMIT", 1]]
+  ↳ app/controllers/application_controller.rb:6
+  Rendering users/home.html.erb within layouts/application
+  Rendered users/home.html.erb within layouts/application (0.6ms)
+Completed 200 OK in 26ms (Views: 23.3ms | ActiveRecord: 0.2ms)
+
+
+Started DELETE "/login" for ::1 at 2020-02-25 19:03:59 +1100
+Processing by SessionController#destroy as HTML
+  Parameters: {"authenticity_token"=>"iMgRtOH/yvn+3erYq+4rHFiScq/lPjfSjcwWt1FPmhG82lGZMrgshLoOyAiVP1VT52FX5eymN2cuXdmTBHam3Q=="}
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 12], ["LIMIT", 1]]
+  ↳ app/controllers/application_controller.rb:6
+Redirected to http://localhost:3000/login
+Completed 302 Found in 1ms (ActiveRecord: 0.2ms)
+
+
+Started GET "/login" for ::1 at 2020-02-25 19:03:59 +1100
+Processing by SessionController#new as HTML
+  Rendering session/new.html.erb within layouts/application
+  Rendered session/new.html.erb within layouts/application (1.2ms)
+Completed 200 OK in 25ms (Views: 22.9ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/login" for ::1 at 2020-02-25 19:04:03 +1100
+Processing by SessionController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"st59uCPaaZnb498AFtjYC6z8Nkmpd886Qagl+Pqsl/yGzD2V8J2P5J8w/dAoCaZEEw8TA6Dvz4/iOercr5WrMA==", "email"=>"judeosborn@gmail.com", "password"=>"[FILTERED]", "commit"=>"Login"}
+  [1m[36mUser Load (0.1ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."email" = ? LIMIT ?[0m  [["email", "judeosborn@gmail.com"], ["LIMIT", 1]]
+  ↳ app/controllers/session_controller.rb:6
+Redirected to http://localhost:3000/
+Completed 302 Found in 268ms (ActiveRecord: 0.1ms)
+
+
+Started GET "/" for ::1 at 2020-02-25 19:04:03 +1100
+Processing by UsersController#home as HTML
+  [1m[36mUser Load (0.1ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 14], ["LIMIT", 1]]
+  ↳ app/controllers/application_controller.rb:6
+  Rendering users/home.html.erb within layouts/application
+  Rendered users/home.html.erb within layouts/application (2.1ms)
+Completed 500 Internal Server Error in 8ms (ActiveRecord: 0.1ms)
+
+
+  
+ActionView::Template::Error (No route matches {:action=>"show", :controller=>"blood_sugars"}, missing required keys: [:id]):
+    10:   </div>
+    11:   <div class="patient_levels">
+    12:   </div>
+    13:   <%= link_to 'History', blood_sugar_path %>
+    14: <% end %>
+  
+app/views/users/home.html.erb:13:in `_app_views_users_home_html_erb__3329811296668542901_70365073121500'
+Started GET "/" for ::1 at 2020-02-25 19:04:18 +1100
+Processing by UsersController#home as HTML
+  [1m[36mUser Load (0.1ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 14], ["LIMIT", 1]]
+  ↳ app/controllers/application_controller.rb:6
+  Rendering users/home.html.erb within layouts/application
+  Rendered users/home.html.erb within layouts/application (1.1ms)
+Completed 500 Internal Server Error in 234ms (ActiveRecord: 0.1ms)
+
+
+  
+ActionView::Template::Error (undefined local variable or method `new_skill_path' for #<#<Class:0x007ffe4933a208>:0x007ffe496e6708>
+Did you mean?  new_user_path):
+    20:     <% end %>
+    21:     <% if @current_user.user_type === 'patient' %>
+    22:     (Patient)
+    23:     <%= link_to "New Skill", new_skill_path, :class => "mdl-button" %>
+    24:     <% end %>
+    25:     <%= link_to "Logout", login_path, method: 'delete', :class => "mdl-button", :onClick => 'alert("You have been logged out")'%>
+    26: 
+  
+app/views/layouts/application.html.erb:23:in `_app_views_layouts_application_html_erb___473544006935110693_70365065181180'
+Started GET "/" for ::1 at 2020-02-25 19:04:41 +1100
+Processing by UsersController#home as HTML
+  [1m[36mUser Load (0.1ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 14], ["LIMIT", 1]]
+  ↳ app/controllers/application_controller.rb:6
+  Rendering users/home.html.erb within layouts/application
+  Rendered users/home.html.erb within layouts/application (0.7ms)
+Completed 200 OK in 34ms (Views: 31.4ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/blood_sugars" for ::1 at 2020-02-25 19:04:44 +1100
+Processing by BloodSugarsController#index as HTML
+  [1m[36mUser Load (0.1ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 14], ["LIMIT", 1]]
+  ↳ app/controllers/application_controller.rb:6
+  Rendering blood_sugars/index.html.erb within layouts/application
+  [1m[36mBloodSugar Load (0.3ms)[0m  [1m[34mSELECT "blood_sugars".* FROM "blood_sugars"[0m
+  ↳ app/views/blood_sugars/index.html.erb:16
+  Rendered blood_sugars/index.html.erb within layouts/application (13.7ms)
+Completed 200 OK in 45ms (Views: 35.8ms | ActiveRecord: 1.1ms)
+
+
+Started GET "/blood_sugars" for ::1 at 2020-02-25 19:04:56 +1100
+Processing by BloodSugarsController#index as HTML
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 14], ["LIMIT", 1]]
+  ↳ app/controllers/application_controller.rb:6
+  Rendering blood_sugars/index.html.erb within layouts/application
+  [1m[36mBloodSugar Load (0.2ms)[0m  [1m[34mSELECT "blood_sugars".* FROM "blood_sugars"[0m
+  ↳ app/views/blood_sugars/index.html.erb:16
+  Rendered blood_sugars/index.html.erb within layouts/application (5.1ms)
+Completed 200 OK in 39ms (Views: 35.3ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/blood_sugars" for ::1 at 2020-02-25 19:04:59 +1100
+Processing by BloodSugarsController#index as HTML
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 14], ["LIMIT", 1]]
+  ↳ app/controllers/application_controller.rb:6
+  Rendering blood_sugars/index.html.erb within layouts/application
+  [1m[36mBloodSugar Load (0.1ms)[0m  [1m[34mSELECT "blood_sugars".* FROM "blood_sugars"[0m
+  ↳ app/views/blood_sugars/index.html.erb:16
+  Rendered blood_sugars/index.html.erb within layouts/application (3.2ms)
+Completed 200 OK in 31ms (Views: 27.6ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/" for ::1 at 2020-02-25 19:05:31 +1100
+Processing by UsersController#home as HTML
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 14], ["LIMIT", 1]]
+  ↳ app/controllers/application_controller.rb:6
+  Rendering users/home.html.erb within layouts/application
+  Rendered users/home.html.erb within layouts/application (0.7ms)
+Completed 200 OK in 34ms (Views: 30.4ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/" for ::1 at 2020-02-25 19:05:56 +1100
+Processing by UsersController#home as HTML
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 14], ["LIMIT", 1]]
+  ↳ app/controllers/application_controller.rb:6
+  Rendering users/home.html.erb within layouts/application
+  Rendered users/home.html.erb within layouts/application (0.6ms)
+Completed 200 OK in 46ms (Views: 42.9ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/" for ::1 at 2020-02-25 19:06:39 +1100
+Processing by UsersController#home as HTML
+  [1m[36mUser Load (0.1ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 14], ["LIMIT", 1]]
+  ↳ app/controllers/application_controller.rb:6
+  Rendering users/home.html.erb within layouts/application
+  Rendered users/home.html.erb within layouts/application (0.7ms)
+Completed 200 OK in 29ms (Views: 26.1ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/" for ::1 at 2020-02-25 19:07:07 +1100
+Processing by UsersController#home as HTML
+  [1m[36mUser Load (0.1ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 14], ["LIMIT", 1]]
+  ↳ app/controllers/application_controller.rb:6
+  Rendering users/home.html.erb within layouts/application
+  Rendered users/home.html.erb within layouts/application (1.1ms)
+Completed 200 OK in 32ms (Views: 29.0ms | ActiveRecord: 0.1ms)
+
+
+Started DELETE "/login" for ::1 at 2020-02-25 19:07:21 +1100
+Processing by SessionController#destroy as HTML
+  Parameters: {"authenticity_token"=>"iyzPnnXBaMMrhc16oVJ4LnF6BcMrwIAErCCiMe8tlg+/Po+zpoaOvm9W76qfgwZhzokgiSJYgLEPsW0VuhSqww=="}
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 14], ["LIMIT", 1]]
+  ↳ app/controllers/application_controller.rb:6
+Redirected to http://localhost:3000/login
+Completed 302 Found in 2ms (ActiveRecord: 0.2ms)
+
+
+Started GET "/login" for ::1 at 2020-02-25 19:07:21 +1100
+Processing by SessionController#new as HTML
+  Rendering session/new.html.erb within layouts/application
+  Rendered session/new.html.erb within layouts/application (1.7ms)
+Completed 200 OK in 33ms (Views: 30.1ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/login" for ::1 at 2020-02-25 19:07:27 +1100
+Processing by SessionController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"AIoPFLro5zVz4N+t+8Xd2eHbEIcV5S9FekvNJWnD+100mE85aa8BSDcz/X3FFKOWXig1zRx9L/DZ2gIBPPrHkQ==", "email"=>"ram@gmail.com", "password"=>"[FILTERED]", "commit"=>"Login"}
+  [1m[36mUser Load (0.1ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."email" = ? LIMIT ?[0m  [["email", "ram@gmail.com"], ["LIMIT", 1]]
+  ↳ app/controllers/session_controller.rb:6
+Redirected to http://localhost:3000/
+Completed 302 Found in 272ms (ActiveRecord: 0.1ms)
+
+
+Started GET "/" for ::1 at 2020-02-25 19:07:28 +1100
+Processing by UsersController#home as HTML
+  [1m[36mUser Load (0.1ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 12], ["LIMIT", 1]]
+  ↳ app/controllers/application_controller.rb:6
+  Rendering users/home.html.erb within layouts/application
+  Rendered users/home.html.erb within layouts/application (0.5ms)
+Completed 200 OK in 22ms (Views: 20.2ms | ActiveRecord: 0.1ms)
+
+

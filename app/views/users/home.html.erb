@@ -1,11 +1,23 @@
 <% if @current_user.user_type === 'admin' %>
-<h1>Admin<h1>
+
 <% end %>
 
 <% if @current_user.user_type === 'doctor' %>
-<h1>Doctor<h1>
+  
 <% end %>
 
 <% if @current_user.user_type === 'patient' %>
-<h1>Patient<h1>
+  <div class="patient_medications">
+    Patient Medications
+  </div>
+  <div class="patient_levels">
+    Patient Levels
+  </div>
+  <%= link_to 'History', blood_sugars_path %>
+  <div class="doctors_notes">
+    <div class="note_header">Ram's Notes</div>
+    <div class="latest_note">Increased insulin by 2 units per day</div>
+
+  </div>
+
 <% end %>

@@ -20,10 +20,44 @@
     <% end %>
     <% if @current_user.user_type === 'patient' %>
     (Patient)
-    <%= link_to "New Skill", new_skill_path, :class => "mdl-button" %>
     <% end %>
     <%= link_to "Logout", login_path, method: 'delete', :class => "mdl-button", :onClick => 'alert("You have been logged out")'%>
+
+    <% if @current_user.user_type === 'admin' %>
+    <nav>
+      <ul>
+        <li><%= link_to "Questions", '/questions' %></li>
+        <li><%= link_to "Blood Sugars", '/blood_sugars' %></li>
+        <li><%= link_to "GI Lookup", '/glycemic_indices' %></li>
+        <li><%= link_to "Medications", '/medications' %></li>
+        <li><%= link_to "Users", '/users' %></li>
+      </ul>
+    </nav>
     <% end %>
+
+    <% if @current_user.user_type === 'doctor' %>
+    <nav>
+      <ul>
+        <li><%= link_to "Home", '/' %></li>
+        <li><%= link_to "Questions", '/questions' %></li>
+      </ul>
+    </nav>
+    <% end %>
+
+    <% if @current_user.user_type === 'patient' %>
+    <nav>
+      <ul>
+        <li><%= link_to "Home", '/' %></li>
+        <li>Your Doctor</li>
+        <li>Information</li>
+        <li><%= link_to "GI Lookup", '/glycemic_indices' %></li>
+        <li><%= link_to "Questions", '/questions' %></li>
+      </ul>
+    </nav>
+    <% end %>
+    <% end %>
+
+
     <%= yield %>
   </body>
 </html>

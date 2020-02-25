@@ -12,13 +12,13 @@
   <body>
     <% if @current_user.present? %>
     Logged in as <a href="/users/<%= @current_user.id %>"><%= @current_user.first_name %></a>
-    <% if @current_user.user_type === 0 %>
+    <% if @current_user.user_type === 'admin' %>
     (Admin)
     <% end %>
-    <% if @current_user.user_type === 1 %>
+    <% if @current_user.user_type === 'doctor' %>
     (Doctor)
     <% end %>
-    <% if @current_user.user_type === 2 %>
+    <% if @current_user.user_type === 'patient' %>
     (Patient)
     <%= link_to "New Skill", new_skill_path, :class => "mdl-button" %>
     <% end %>

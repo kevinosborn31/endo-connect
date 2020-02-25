@@ -1,4 +1,5 @@
 Rails.application.routes.draw do
+  root 'users#index'
   resources :blood_sugars
   resources :glycemic_indices
   resources :medications

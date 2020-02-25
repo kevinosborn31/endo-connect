@@ -36,6 +36,10 @@ class UsersController < ApplicationController
     end
   end
 
+  def home
+    @blood_sugars = BloodSugar.all
+  end
+
   # PATCH/PUT /users/1
   # PATCH/PUT /users/1.json
   def update
@@ -64,6 +68,14 @@ class UsersController < ApplicationController
     # Use callbacks to share common setup or constraints between actions.
     def set_user
       @user = User.find(params[:id])
+    end
+
+    def set_blood_sugar
+      @blood_sugar = BloodSugar.find(params[:id])
+    end
+
+    def blood_sugar_params
+      params.require(:blood_sugar).permit(:user_id, :time, :level)
     end
 
     # Only allow a list of trusted parameters through.

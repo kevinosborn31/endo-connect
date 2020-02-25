@@ -1,12 +1,14 @@
 <p id="notice"><%= notice %></p>
 
-<h1>Glycemic Indices</h1>
+<h1>Glycemic Index</h1>
+<h2>What is GI?</h2>
+<p>Carbohydrate is an essential part of our diets, but not all carbohydrate foods are equal. The Glycemic Index (GI) is a relative ranking of carbohydrate in foods according to how they affect blood glucose levels. Carbohydrates with a low GI value (55 or less) are more slowly digested, absorbed and metabolised and cause a lower and slower rise in blood glucose and, therefore usually, insulin levels.</p>
 
 <table>
   <thead>
     <tr>
       <th>Food</th>
-      <th>Gi</th>
+      <th>Index</th>
       <th colspan="3"></th>
     </tr>
   </thead>
@@ -16,14 +18,14 @@
       <tr>
         <td><%= glycemic_index.food %></td>
         <td><%= glycemic_index.gi %></td>
-        <td><%= link_to 'Show', glycemic_index %></td>
+        <% if @current_user.user_type === 'admin' %>
         <td><%= link_to 'Edit', edit_glycemic_index_path(glycemic_index) %></td>
         <td><%= link_to 'Destroy', glycemic_index, method: :delete, data: { confirm: 'Are you sure?' } %></td>
+        <%= link_to 'New', new_glycemic_index_path %>
+        <% end %>
       </tr>
     <% end %>
   </tbody>
 </table>
 
 <br>
-
-<%= link_to 'New Glycemic Index', new_glycemic_index_path %>

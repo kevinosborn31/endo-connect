@@ -25,9 +25,11 @@
         <% if @current_user.user_type === 'doctor' %>
         <td><%= link_to 'Answer Question', new_answer_path %></td>
         <% end %>
+        <% if @current_user.id === question.user.id || @current_user.user_type === 'admin' %>
+        <td><%= link_to 'Destroy', question, method: :delete, data: { confirm: 'Are you sure?' } %></td>
+        <% end %>
         <% if @current_user.user_type === 'admin' %>
         <td><%= link_to 'Edit', edit_question_path(question) %></td>
-        <td><%= link_to 'Destroy', question, method: :delete, data: { confirm: 'Are you sure?' } %></td>
         <% end %>
       </tr>
     <% end %>

@@ -10,6 +10,18 @@
   <%= @question.qustion_text %>
 </p>
 
+<p>
+  <strong>Answer:</strong>
+  <% if @question.answer === nil %>
+  No Answer
+  <% else %>
+  <%= @question.answer %>
+    <% end %>
+  <% if @current_user.user_type === 'doctor' %>
+  <%= link_to 'Answer Question', new_answer_path %>
+  <% end %>
+</p>
+
 <% if @current_user.user_type === 'admin' %>
 <%= link_to 'Edit', edit_question_path(@question) %> |
 <% end %>

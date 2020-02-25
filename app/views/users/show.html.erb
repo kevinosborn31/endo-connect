@@ -9,17 +9,6 @@
   <strong>Last name:</strong>
   <%= @user.last_name %>
 </p>
-
-<p>
-  <strong>Medicare:</strong>
-  <%= @user.medicare %>
-</p>
-
-<p>
-  <strong>Ndss:</strong>
-  <%= @user.ndss %>
-</p>
-
 <p>
   <strong>Phone:</strong>
   <%= @user.phone %>
@@ -29,6 +18,21 @@
   <strong>Email:</strong>
   <%= @user.email %>
 </p>
+
+<% if @user.user_type === "patient" %>
+<p>
+  <strong>Medicare:</strong>
+  <%= @user.medicare %>
+</p>
+
+<p>
+  <strong>Ndss:</strong>
+  <%= @user.ndss %>
+</p>
+<% end %>
+
+<% if @user.user_type === "doctor" %>
+
 
 <p>
   <strong>Location:</strong>
@@ -40,15 +44,9 @@
   <%= @user.specialization %>
 </p>
 
-<p>
-  <strong>User type:</strong>
-  <%= @user.user_type %>
-</p>
+<% end %>
 
-<p>
-  <strong>Admin:</strong>
-  <%= @user.admin %>
-</p>
-
+<% if @user === @current_user %>
 <%= link_to 'Edit', edit_user_path(@user) %> |
+<% end %>
 <%= link_to 'Back', users_path %>

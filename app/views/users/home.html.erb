@@ -1,0 +1,11 @@
+<% if @current_user.user_type === 'admin' %>
+<h1>Admin<h1>
+<% end %>
+
+<% if @current_user.user_type === 'doctor' %>
+<h1>Doctor<h1>
+<% end %>
+
+<% if @current_user.user_type === 'patient' %>
+<h1>Patient<h1>
+<% end %>

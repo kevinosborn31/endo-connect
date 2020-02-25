@@ -1264,3 +1264,1073 @@ Completed 200 OK in 239ms (Views: 203.9ms | ActiveRecord: 2.2ms)
   ↳ bin/rails:4
   [1m[35m (0.1ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
   ↳ bin/rails:4
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  ↳ bin/rails:4
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  ↳ bin/rails:4
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  ↳ bin/rails:4
+  [1m[36mAnswer Load (0.6ms)[0m  [1m[34mSELECT "answers".* FROM "answers"[0m
+  ↳ db/seeds.rb:9
+  [1m[36mQuestion Load (0.6ms)[0m  [1m[34mSELECT "questions".* FROM "questions"[0m
+  ↳ db/seeds.rb:10
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  ↳ bin/rails:4
+  [1m[36mAnswer Load (0.1ms)[0m  [1m[34mSELECT "answers".* FROM "answers"[0m
+  ↳ db/seeds.rb:9
+  [1m[36mQuestion Load (0.1ms)[0m  [1m[34mSELECT "questions".* FROM "questions"[0m
+  ↳ db/seeds.rb:10
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  ↳ bin/rails:4
+  [1m[36mActiveRecord::InternalMetadata Load (0.1ms)[0m  [1m[34mSELECT  "ar_internal_metadata".* FROM "ar_internal_metadata" WHERE "ar_internal_metadata"."key" = ? LIMIT ?[0m  [["key", "environment"], ["LIMIT", 1]]
+  ↳ bin/rails:4
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  ↳ bin/rails:4
+  [1m[35m (0.0ms)[0m  [1m[36mcommit transaction[0m
+  ↳ bin/rails:4
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  ↳ bin/rails:4
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  ↳ bin/rails:4
+  [1m[36mAnswer Load (0.1ms)[0m  [1m[34mSELECT "answers".* FROM "answers"[0m
+  ↳ db/seeds.rb:9
+  [1m[36mQuestion Load (0.1ms)[0m  [1m[34mSELECT "questions".* FROM "questions"[0m
+  ↳ db/seeds.rb:10
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  ↳ bin/rails:4
+  [1m[36mActiveRecord::InternalMetadata Load (0.1ms)[0m  [1m[34mSELECT  "ar_internal_metadata".* FROM "ar_internal_metadata" WHERE "ar_internal_metadata"."key" = ? LIMIT ?[0m  [["key", "environment"], ["LIMIT", 1]]
+  ↳ bin/rails:4
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  ↳ bin/rails:4
+  [1m[35m (0.0ms)[0m  [1m[36mcommit transaction[0m
+  ↳ bin/rails:4
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  ↳ bin/rails:4
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  ↳ bin/rails:4
+  [1m[36mAnswer Load (0.1ms)[0m  [1m[34mSELECT "answers".* FROM "answers"[0m
+  ↳ db/seeds.rb:9
+  [1m[36mQuestion Load (0.1ms)[0m  [1m[34mSELECT "questions".* FROM "questions"[0m
+  ↳ db/seeds.rb:10
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  ↳ bin/rails:4
+  [1m[36mAnswer Load (0.1ms)[0m  [1m[34mSELECT "answers".* FROM "answers"[0m
+  ↳ db/seeds.rb:9
+  [1m[36mQuestion Load (0.1ms)[0m  [1m[34mSELECT "questions".* FROM "questions"[0m
+  ↳ db/seeds.rb:10
+  [1m[36mBloodSugar Load (0.6ms)[0m  [1m[34mSELECT "blood_sugars".* FROM "blood_sugars"[0m
+  ↳ db/seeds.rb:11
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  ↳ bin/rails:4
+  [1m[36mAnswer Load (0.1ms)[0m  [1m[34mSELECT "answers".* FROM "answers"[0m
+  ↳ db/seeds.rb:9
+  [1m[36mQuestion Load (0.1ms)[0m  [1m[34mSELECT "questions".* FROM "questions"[0m
+  ↳ db/seeds.rb:10
+  [1m[36mBloodSugar Load (0.1ms)[0m  [1m[34mSELECT "blood_sugars".* FROM "blood_sugars"[0m
+  ↳ db/seeds.rb:11
+  [1m[36mGlycemicIndex Load (0.5ms)[0m  [1m[34mSELECT "glycemic_indices".* FROM "glycemic_indices"[0m
+  ↳ db/seeds.rb:12
+  [1m[36mMedication Load (0.6ms)[0m  [1m[34mSELECT "medications".* FROM "medications"[0m
+  ↳ db/seeds.rb:13
+  [1m[36mUser Load (0.6ms)[0m  [1m[34mSELECT "users".* FROM "users"[0m
+  ↳ db/seeds.rb:14
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  ↳ db/seeds.rb:14
+  [1m[36mUser Destroy (0.4ms)[0m  [1m[31mDELETE FROM "users" WHERE "users"."id" = ?[0m  [["id", 2]]
+  ↳ db/seeds.rb:14
+  [1m[35m (0.6ms)[0m  [1m[36mcommit transaction[0m
+  ↳ db/seeds.rb:14
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  ↳ bin/rails:4
+  [1m[36mAnswer Load (0.1ms)[0m  [1m[34mSELECT "answers".* FROM "answers"[0m
+  ↳ db/seeds.rb:9
+  [1m[36mQuestion Load (0.1ms)[0m  [1m[34mSELECT "questions".* FROM "questions"[0m
+  ↳ db/seeds.rb:10
+  [1m[36mBloodSugar Load (0.1ms)[0m  [1m[34mSELECT "blood_sugars".* FROM "blood_sugars"[0m
+  ↳ db/seeds.rb:11
+  [1m[36mGlycemicIndex Load (0.1ms)[0m  [1m[34mSELECT "glycemic_indices".* FROM "glycemic_indices"[0m
+  ↳ db/seeds.rb:12
+  [1m[36mMedication Load (0.1ms)[0m  [1m[34mSELECT "medications".* FROM "medications"[0m
+  ↳ db/seeds.rb:13
+  [1m[36mUser Load (0.1ms)[0m  [1m[34mSELECT "users".* FROM "users"[0m
+  ↳ db/seeds.rb:14
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  ↳ db/seeds.rb:18
+  [1m[36mUser Exists (0.2ms)[0m  [1m[34mSELECT  1 AS one FROM "users" WHERE "users"."email" = ? LIMIT ?[0m  [["email", "kevinosborn31@gmail.com"], ["LIMIT", 1]]
+  ↳ db/seeds.rb:18
+  [1m[36mUser Create (0.4ms)[0m  [1m[32mINSERT INTO "users" ("first_name", "last_name", "email", "user_type", "admin", "password_digest", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?, ?, ?, ?)[0m  [["first_name", "Kevin"], ["last_name", "Osborn"], ["email", "kevinosborn31@gmail.com"], ["user_type", 0], ["admin", 1], ["password_digest", "$2a$12$a/GK.q09RmwHhWiWfRf1q.wLR.h7XaVuoaCYI.MmuFlVom7Q0W0Xy"], ["created_at", "2020-02-25 03:18:10.553677"], ["updated_at", "2020-02-25 03:18:10.553677"]]
+  ↳ db/seeds.rb:18
+  [1m[35m (5.8ms)[0m  [1m[36mcommit transaction[0m
+  ↳ db/seeds.rb:18
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  ↳ db/seeds.rb:20
+  [1m[36mUser Exists (0.1ms)[0m  [1m[34mSELECT  1 AS one FROM "users" WHERE "users"."email" = ? LIMIT ?[0m  [["email", "ram@gmail.com"], ["LIMIT", 1]]
+  ↳ db/seeds.rb:20
+  [1m[36mUser Create (0.2ms)[0m  [1m[32mINSERT INTO "users" ("first_name", "last_name", "phone", "email", "location", "specialization", "user_type", "admin", "password_digest", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)[0m  [["first_name", "Ram"], ["last_name", "Taheri"], ["phone", 483910295], ["email", "ram@gmail.com"], ["location", "Wollongong"], ["specialization", "Endocrinologist"], ["user_type", 1], ["admin", 0], ["password_digest", "$2a$12$3KQ35NQDVwkzlkOtjARSuuJFvImBgC/UOEcSkzoe0morOLMqhHf7u"], ["created_at", "2020-02-25 03:18:10.815829"], ["updated_at", "2020-02-25 03:18:10.815829"]]
+  ↳ db/seeds.rb:20
+  [1m[35m (5.9ms)[0m  [1m[36mcommit transaction[0m
+  ↳ db/seeds.rb:20
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  ↳ db/seeds.rb:22
+  [1m[36mUser Exists (0.1ms)[0m  [1m[34mSELECT  1 AS one FROM "users" WHERE "users"."email" = ? LIMIT ?[0m  [["email", "lukehammer@gmail.com"], ["LIMIT", 1]]
+  ↳ db/seeds.rb:22
+  [1m[36mUser Create (0.3ms)[0m  [1m[32mINSERT INTO "users" ("first_name", "last_name", "medicare", "ndss", "phone", "email", "location", "user_type", "admin", "password_digest", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)[0m  [["first_name", "Luke"], ["last_name", "Hammer"], ["medicare", 1039394839], ["ndss", 99483728392], ["phone", 499302958], ["email", "lukehammer@gmail.com"], ["location", "Wollongong"], ["user_type", 2], ["admin", 0], ["password_digest", "$2a$12$rog6N2/o8ZnMHxO.0cFnb.Vd9Ky9H35L//XJx491QN7YfaeGAz4xe"], ["created_at", "2020-02-25 03:18:11.078030"], ["updated_at", "2020-02-25 03:18:11.078030"]]
+  ↳ db/seeds.rb:22
+  [1m[35m (6.0ms)[0m  [1m[36mcommit transaction[0m
+  ↳ db/seeds.rb:22
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  ↳ db/seeds.rb:24
+  [1m[36mUser Exists (0.1ms)[0m  [1m[34mSELECT  1 AS one FROM "users" WHERE "users"."email" = ? LIMIT ?[0m  [["email", "judeosborn@gmail.com"], ["LIMIT", 1]]
+  ↳ db/seeds.rb:24
+  [1m[36mUser Create (0.2ms)[0m  [1m[32mINSERT INTO "users" ("first_name", "last_name", "medicare", "ndss", "phone", "email", "location", "user_type", "admin", "password_digest", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)[0m  [["first_name", "Jude"], ["last_name", "Osborn"], ["medicare", 8593848573], ["ndss", 23748392934], ["phone", 424859481], ["email", "judeosborn@gmail.com"], ["location", "Castle Hill"], ["user_type", 2], ["admin", 0], ["password_digest", "$2a$12$w29zdlXlHW9IZJFmYVXrfODQFceS2/5Yyc7WvKPLzPgTCHrTf.Y5."], ["created_at", "2020-02-25 03:18:11.342486"], ["updated_at", "2020-02-25 03:18:11.342486"]]
+  ↳ db/seeds.rb:24
+  [1m[35m (5.8ms)[0m  [1m[36mcommit transaction[0m
+  ↳ db/seeds.rb:24
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  ↳ db/seeds.rb:27
+  [1m[36mBloodSugar Create (0.4ms)[0m  [1m[32mINSERT INTO "blood_sugars" ("user_id", "level", "created_at", "updated_at") VALUES (?, ?, ?, ?)[0m  [["user_id", 4], ["level", 5], ["created_at", "2020-02-25 03:18:11.354605"], ["updated_at", "2020-02-25 03:18:11.354605"]]
+  ↳ db/seeds.rb:27
+  [1m[35m (0.9ms)[0m  [1m[36mcommit transaction[0m
+  ↳ db/seeds.rb:27
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  ↳ db/seeds.rb:29
+  [1m[36mBloodSugar Create (0.3ms)[0m  [1m[32mINSERT INTO "blood_sugars" ("user_id", "level", "created_at", "updated_at") VALUES (?, ?, ?, ?)[0m  [["user_id", 4], ["level", 5], ["created_at", "2020-02-25 03:18:11.358604"], ["updated_at", "2020-02-25 03:18:11.358604"]]
+  ↳ db/seeds.rb:29
+  [1m[35m (0.6ms)[0m  [1m[36mcommit transaction[0m
+  ↳ db/seeds.rb:29
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  ↳ db/seeds.rb:31
+  [1m[36mBloodSugar Create (0.3ms)[0m  [1m[32mINSERT INTO "blood_sugars" ("user_id", "level", "created_at", "updated_at") VALUES (?, ?, ?, ?)[0m  [["user_id", 4], ["level", 2], ["created_at", "2020-02-25 03:18:11.360672"], ["updated_at", "2020-02-25 03:18:11.360672"]]
+  ↳ db/seeds.rb:31
+  [1m[35m (0.6ms)[0m  [1m[36mcommit transaction[0m
+  ↳ db/seeds.rb:31
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  ↳ db/seeds.rb:33
+  [1m[36mBloodSugar Create (0.3ms)[0m  [1m[32mINSERT INTO "blood_sugars" ("user_id", "level", "created_at", "updated_at") VALUES (?, ?, ?, ?)[0m  [["user_id", 4], ["level", 11], ["created_at", "2020-02-25 03:18:11.362617"], ["updated_at", "2020-02-25 03:18:11.362617"]]
+  ↳ db/seeds.rb:33
+  [1m[35m (0.6ms)[0m  [1m[36mcommit transaction[0m
+  ↳ db/seeds.rb:33
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  ↳ db/seeds.rb:37
+  [1m[36mBloodSugar Create (0.3ms)[0m  [1m[32mINSERT INTO "blood_sugars" ("user_id", "level", "created_at", "updated_at") VALUES (?, ?, ?, ?)[0m  [["user_id", 5], ["level", 6], ["created_at", "2020-02-25 03:18:11.366986"], ["updated_at", "2020-02-25 03:18:11.366986"]]
+  ↳ db/seeds.rb:37
+  [1m[35m (0.7ms)[0m  [1m[36mcommit transaction[0m
+  ↳ db/seeds.rb:37
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  ↳ db/seeds.rb:39
+  [1m[36mBloodSugar Create (0.3ms)[0m  [1m[32mINSERT INTO "blood_sugars" ("user_id", "level", "created_at", "updated_at") VALUES (?, ?, ?, ?)[0m  [["user_id", 5], ["level", 8], ["created_at", "2020-02-25 03:18:11.369664"], ["updated_at", "2020-02-25 03:18:11.369664"]]
+  ↳ db/seeds.rb:39
+  [1m[35m (0.6ms)[0m  [1m[36mcommit transaction[0m
+  ↳ db/seeds.rb:39
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  ↳ db/seeds.rb:41
+  [1m[36mBloodSugar Create (0.4ms)[0m  [1m[32mINSERT INTO "blood_sugars" ("user_id", "level", "created_at", "updated_at") VALUES (?, ?, ?, ?)[0m  [["user_id", 5], ["level", 9], ["created_at", "2020-02-25 03:18:11.371914"], ["updated_at", "2020-02-25 03:18:11.371914"]]
+  ↳ db/seeds.rb:41
+  [1m[35m (0.6ms)[0m  [1m[36mcommit transaction[0m
+  ↳ db/seeds.rb:41
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  ↳ db/seeds.rb:43
+  [1m[36mBloodSugar Create (0.3ms)[0m  [1m[32mINSERT INTO "blood_sugars" ("user_id", "level", "created_at", "updated_at") VALUES (?, ?, ?, ?)[0m  [["user_id", 5], ["level", 10], ["created_at", "2020-02-25 03:18:11.374118"], ["updated_at", "2020-02-25 03:18:11.374118"]]
+  ↳ db/seeds.rb:43
+  [1m[35m (0.6ms)[0m  [1m[36mcommit transaction[0m
+  ↳ db/seeds.rb:43
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  ↳ db/seeds.rb:47
+  [1m[36mGlycemicIndex Create (0.5ms)[0m  [1m[32mINSERT INTO "glycemic_indices" ("food", "gi", "created_at", "updated_at") VALUES (?, ?, ?, ?)[0m  [["food", "Potato"], ["gi", 78], ["created_at", "2020-02-25 03:18:11.382913"], ["updated_at", "2020-02-25 03:18:11.382913"]]
+  ↳ db/seeds.rb:47
+  [1m[35m (0.6ms)[0m  [1m[36mcommit transaction[0m
+  ↳ db/seeds.rb:47
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  ↳ db/seeds.rb:49
+  [1m[36mGlycemicIndex Create (0.4ms)[0m  [1m[32mINSERT INTO "glycemic_indices" ("food", "gi", "created_at", "updated_at") VALUES (?, ?, ?, ?)[0m  [["food", "Pumpkin"], ["gi", 64], ["created_at", "2020-02-25 03:18:11.385671"], ["updated_at", "2020-02-25 03:18:11.385671"]]
+  ↳ db/seeds.rb:49
+  [1m[35m (0.6ms)[0m  [1m[36mcommit transaction[0m
+  ↳ db/seeds.rb:49
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  ↳ db/seeds.rb:51
+  [1m[36mGlycemicIndex Create (0.6ms)[0m  [1m[32mINSERT INTO "glycemic_indices" ("food", "gi", "created_at", "updated_at") VALUES (?, ?, ?, ?)[0m  [["food", "Milk"], ["gi", 39], ["created_at", "2020-02-25 03:18:11.388025"], ["updated_at", "2020-02-25 03:18:11.388025"]]
+  ↳ db/seeds.rb:51
+  [1m[35m (1.0ms)[0m  [1m[36mcommit transaction[0m
+  ↳ db/seeds.rb:51
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  ↳ db/seeds.rb:53
+  [1m[36mGlycemicIndex Create (0.4ms)[0m  [1m[32mINSERT INTO "glycemic_indices" ("food", "gi", "created_at", "updated_at") VALUES (?, ?, ?, ?)[0m  [["food", "Bread"], ["gi", 75], ["created_at", "2020-02-25 03:18:11.391153"], ["updated_at", "2020-02-25 03:18:11.391153"]]
+  ↳ db/seeds.rb:53
+  [1m[35m (0.9ms)[0m  [1m[36mcommit transaction[0m
+  ↳ db/seeds.rb:53
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  ↳ db/seeds.rb:56
+  [1m[36mMedication Create (0.3ms)[0m  [1m[32mINSERT INTO "medications" ("name", "dosage", "instructions", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?)[0m  [["name", "Lantus"], ["dosage", 28], ["instructions", "Take every night before bed"], ["created_at", "2020-02-25 03:18:11.399273"], ["updated_at", "2020-02-25 03:18:11.399273"]]
+  ↳ db/seeds.rb:56
+  [1m[35m (0.7ms)[0m  [1m[36mcommit transaction[0m
+  ↳ db/seeds.rb:56
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  ↳ db/seeds.rb:58
+  [1m[36mMedication Create (0.4ms)[0m  [1m[32mINSERT INTO "medications" ("name", "dosage", "instructions", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?)[0m  [["name", "Nova Rapid"], ["dosage", 1], ["instructions", "Take at a ratio of 1:10 carbs"], ["created_at", "2020-02-25 03:18:11.401852"], ["updated_at", "2020-02-25 03:18:11.401852"]]
+  ↳ db/seeds.rb:58
+  [1m[35m (0.6ms)[0m  [1m[36mcommit transaction[0m
+  ↳ db/seeds.rb:58
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  ↳ db/seeds.rb:60
+  [1m[36mMedication Create (0.3ms)[0m  [1m[32mINSERT INTO "medications" ("name", "dosage", "instructions", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?)[0m  [["name", "Apidra"], ["dosage", 10], ["instructions", "Take with every meal"], ["created_at", "2020-02-25 03:18:11.404383"], ["updated_at", "2020-02-25 03:18:11.404383"]]
+  ↳ db/seeds.rb:60
+  [1m[35m (0.7ms)[0m  [1m[36mcommit transaction[0m
+  ↳ db/seeds.rb:60
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  ↳ db/seeds.rb:62
+  [1m[36mMedication Create (0.3ms)[0m  [1m[32mINSERT INTO "medications" ("name", "dosage", "instructions", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?)[0m  [["name", "Acarbose"], ["dosage", 2], ["instructions", "Take with a meal"], ["created_at", "2020-02-25 03:18:11.406600"], ["updated_at", "2020-02-25 03:18:11.406600"]]
+  ↳ db/seeds.rb:62
+  [1m[35m (0.6ms)[0m  [1m[36mcommit transaction[0m
+  ↳ db/seeds.rb:62
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  ↳ bin/rails:4
+  [1m[36mAnswer Load (0.1ms)[0m  [1m[34mSELECT "answers".* FROM "answers"[0m
+  ↳ db/seeds.rb:9
+  [1m[36mQuestion Load (0.1ms)[0m  [1m[34mSELECT "questions".* FROM "questions"[0m
+  ↳ db/seeds.rb:10
+  [1m[36mBloodSugar Load (0.1ms)[0m  [1m[34mSELECT "blood_sugars".* FROM "blood_sugars"[0m
+  ↳ db/seeds.rb:11
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  ↳ db/seeds.rb:11
+  [1m[36mBloodSugar Destroy (0.5ms)[0m  [1m[31mDELETE FROM "blood_sugars" WHERE "blood_sugars"."id" = ?[0m  [["id", 1]]
+  ↳ db/seeds.rb:11
+  [1m[35m (0.8ms)[0m  [1m[36mcommit transaction[0m
+  ↳ db/seeds.rb:11
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  ↳ db/seeds.rb:11
+  [1m[36mBloodSugar Destroy (0.2ms)[0m  [1m[31mDELETE FROM "blood_sugars" WHERE "blood_sugars"."id" = ?[0m  [["id", 2]]
+  ↳ db/seeds.rb:11
+  [1m[35m (0.8ms)[0m  [1m[36mcommit transaction[0m
+  ↳ db/seeds.rb:11
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  ↳ db/seeds.rb:11
+  [1m[36mBloodSugar Destroy (0.2ms)[0m  [1m[31mDELETE FROM "blood_sugars" WHERE "blood_sugars"."id" = ?[0m  [["id", 3]]
+  ↳ db/seeds.rb:11
+  [1m[35m (0.5ms)[0m  [1m[36mcommit transaction[0m
+  ↳ db/seeds.rb:11
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  ↳ db/seeds.rb:11
+  [1m[36mBloodSugar Destroy (0.2ms)[0m  [1m[31mDELETE FROM "blood_sugars" WHERE "blood_sugars"."id" = ?[0m  [["id", 4]]
+  ↳ db/seeds.rb:11
+  [1m[35m (0.6ms)[0m  [1m[36mcommit transaction[0m
+  ↳ db/seeds.rb:11
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  ↳ db/seeds.rb:11
+  [1m[36mBloodSugar Destroy (0.2ms)[0m  [1m[31mDELETE FROM "blood_sugars" WHERE "blood_sugars"."id" = ?[0m  [["id", 5]]
+  ↳ db/seeds.rb:11
+  [1m[35m (0.5ms)[0m  [1m[36mcommit transaction[0m
+  ↳ db/seeds.rb:11
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  ↳ db/seeds.rb:11
+  [1m[36mBloodSugar Destroy (0.2ms)[0m  [1m[31mDELETE FROM "blood_sugars" WHERE "blood_sugars"."id" = ?[0m  [["id", 6]]
+  ↳ db/seeds.rb:11
+  [1m[35m (0.5ms)[0m  [1m[36mcommit transaction[0m
+  ↳ db/seeds.rb:11
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  ↳ db/seeds.rb:11
+  [1m[36mBloodSugar Destroy (0.2ms)[0m  [1m[31mDELETE FROM "blood_sugars" WHERE "blood_sugars"."id" = ?[0m  [["id", 7]]
+  ↳ db/seeds.rb:11
+  [1m[35m (0.5ms)[0m  [1m[36mcommit transaction[0m
+  ↳ db/seeds.rb:11
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  ↳ db/seeds.rb:11
+  [1m[36mBloodSugar Destroy (0.2ms)[0m  [1m[31mDELETE FROM "blood_sugars" WHERE "blood_sugars"."id" = ?[0m  [["id", 8]]
+  ↳ db/seeds.rb:11
+  [1m[35m (0.5ms)[0m  [1m[36mcommit transaction[0m
+  ↳ db/seeds.rb:11
+  [1m[36mGlycemicIndex Load (0.2ms)[0m  [1m[34mSELECT "glycemic_indices".* FROM "glycemic_indices"[0m
+  ↳ db/seeds.rb:12
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  ↳ db/seeds.rb:12
+  [1m[36mGlycemicIndex Destroy (0.3ms)[0m  [1m[31mDELETE FROM "glycemic_indices" WHERE "glycemic_indices"."id" = ?[0m  [["id", 1]]
+  ↳ db/seeds.rb:12
+  [1m[35m (0.6ms)[0m  [1m[36mcommit transaction[0m
+  ↳ db/seeds.rb:12
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  ↳ db/seeds.rb:12
+  [1m[36mGlycemicIndex Destroy (0.3ms)[0m  [1m[31mDELETE FROM "glycemic_indices" WHERE "glycemic_indices"."id" = ?[0m  [["id", 2]]
+  ↳ db/seeds.rb:12
+  [1m[35m (0.8ms)[0m  [1m[36mcommit transaction[0m
+  ↳ db/seeds.rb:12
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  ↳ db/seeds.rb:12
+  [1m[36mGlycemicIndex Destroy (0.4ms)[0m  [1m[31mDELETE FROM "glycemic_indices" WHERE "glycemic_indices"."id" = ?[0m  [["id", 3]]
+  ↳ db/seeds.rb:12
+  [1m[35m (0.7ms)[0m  [1m[36mcommit transaction[0m
+  ↳ db/seeds.rb:12
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  ↳ db/seeds.rb:12
+  [1m[36mGlycemicIndex Destroy (0.4ms)[0m  [1m[31mDELETE FROM "glycemic_indices" WHERE "glycemic_indices"."id" = ?[0m  [["id", 4]]
+  ↳ db/seeds.rb:12
+  [1m[35m (0.6ms)[0m  [1m[36mcommit transaction[0m
+  ↳ db/seeds.rb:12
+  [1m[36mMedication Load (0.2ms)[0m  [1m[34mSELECT "medications".* FROM "medications"[0m
+  ↳ db/seeds.rb:13
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  ↳ db/seeds.rb:13
+  [1m[36mMedication Destroy (0.3ms)[0m  [1m[31mDELETE FROM "medications" WHERE "medications"."id" = ?[0m  [["id", 1]]
+  ↳ db/seeds.rb:13
+  [1m[35m (0.6ms)[0m  [1m[36mcommit transaction[0m
+  ↳ db/seeds.rb:13
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  ↳ db/seeds.rb:13
+  [1m[36mMedication Destroy (0.3ms)[0m  [1m[31mDELETE FROM "medications" WHERE "medications"."id" = ?[0m  [["id", 2]]
+  ↳ db/seeds.rb:13
+  [1m[35m (0.6ms)[0m  [1m[36mcommit transaction[0m
+  ↳ db/seeds.rb:13
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  ↳ db/seeds.rb:13
+  [1m[36mMedication Destroy (0.5ms)[0m  [1m[31mDELETE FROM "medications" WHERE "medications"."id" = ?[0m  [["id", 3]]
+  ↳ db/seeds.rb:13
+  [1m[35m (0.5ms)[0m  [1m[36mcommit transaction[0m
+  ↳ db/seeds.rb:13
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  ↳ db/seeds.rb:13
+  [1m[36mMedication Destroy (0.3ms)[0m  [1m[31mDELETE FROM "medications" WHERE "medications"."id" = ?[0m  [["id", 4]]
+  ↳ db/seeds.rb:13
+  [1m[35m (0.6ms)[0m  [1m[36mcommit transaction[0m
+  ↳ db/seeds.rb:13
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT "users".* FROM "users"[0m
+  ↳ db/seeds.rb:14
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  ↳ db/seeds.rb:14
+  [1m[36mUser Destroy (0.4ms)[0m  [1m[31mDELETE FROM "users" WHERE "users"."id" = ?[0m  [["id", 3]]
+  ↳ db/seeds.rb:14
+  [1m[35m (0.6ms)[0m  [1m[36mcommit transaction[0m
+  ↳ db/seeds.rb:14
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  ↳ db/seeds.rb:14
+  [1m[36mUser Destroy (0.2ms)[0m  [1m[31mDELETE FROM "users" WHERE "users"."id" = ?[0m  [["id", 4]]
+  ↳ db/seeds.rb:14
+  [1m[35m (0.5ms)[0m  [1m[36mcommit transaction[0m
+  ↳ db/seeds.rb:14
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  ↳ db/seeds.rb:14
+  [1m[36mUser Destroy (0.2ms)[0m  [1m[31mDELETE FROM "users" WHERE "users"."id" = ?[0m  [["id", 5]]
+  ↳ db/seeds.rb:14
+  [1m[35m (0.5ms)[0m  [1m[36mcommit transaction[0m
+  ↳ db/seeds.rb:14
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  ↳ db/seeds.rb:14
+  [1m[36mUser Destroy (0.2ms)[0m  [1m[31mDELETE FROM "users" WHERE "users"."id" = ?[0m  [["id", 6]]
+  ↳ db/seeds.rb:14
+  [1m[35m (0.5ms)[0m  [1m[36mcommit transaction[0m
+  ↳ db/seeds.rb:14
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  ↳ db/seeds.rb:18
+  [1m[36mUser Exists (0.1ms)[0m  [1m[34mSELECT  1 AS one FROM "users" WHERE "users"."email" = ? LIMIT ?[0m  [["email", "kevinosborn31@gmail.com"], ["LIMIT", 1]]
+  ↳ db/seeds.rb:18
+  [1m[36mUser Create (0.2ms)[0m  [1m[32mINSERT INTO "users" ("first_name", "last_name", "email", "user_type", "admin", "password_digest", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?, ?, ?, ?)[0m  [["first_name", "Kevin"], ["last_name", "Osborn"], ["email", "kevinosborn31@gmail.com"], ["user_type", 0], ["admin", 1], ["password_digest", "$2a$12$CTnwDTGF.TUS4yWzuF5O1.fOuxFw3.31nYecvE3bFiGOKmh6rwDsG"], ["created_at", "2020-02-25 03:18:55.038346"], ["updated_at", "2020-02-25 03:18:55.038346"]]
+  ↳ db/seeds.rb:18
+  [1m[35m (5.8ms)[0m  [1m[36mcommit transaction[0m
+  ↳ db/seeds.rb:18
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  ↳ db/seeds.rb:20
+  [1m[36mUser Exists (0.1ms)[0m  [1m[34mSELECT  1 AS one FROM "users" WHERE "users"."email" = ? LIMIT ?[0m  [["email", "ram@gmail.com"], ["LIMIT", 1]]
+  ↳ db/seeds.rb:20
+  [1m[36mUser Create (0.3ms)[0m  [1m[32mINSERT INTO "users" ("first_name", "last_name", "phone", "email", "location", "specialization", "user_type", "admin", "password_digest", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)[0m  [["first_name", "Ram"], ["last_name", "Taheri"], ["phone", 483910295], ["email", "ram@gmail.com"], ["location", "Wollongong"], ["specialization", "Endocrinologist"], ["user_type", 1], ["admin", 0], ["password_digest", "$2a$12$22ypV18qwBJZN3IasepdTuFnocTNWax6svLOo0A0nEMiTKIUb8rcu"], ["created_at", "2020-02-25 03:18:55.298543"], ["updated_at", "2020-02-25 03:18:55.298543"]]
+  ↳ db/seeds.rb:20
+  [1m[35m (6.0ms)[0m  [1m[36mcommit transaction[0m
+  ↳ db/seeds.rb:20
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  ↳ db/seeds.rb:22
+  [1m[36mUser Exists (0.1ms)[0m  [1m[34mSELECT  1 AS one FROM "users" WHERE "users"."email" = ? LIMIT ?[0m  [["email", "lukehammer@gmail.com"], ["LIMIT", 1]]
+  ↳ db/seeds.rb:22
+  [1m[36mUser Create (0.2ms)[0m  [1m[32mINSERT INTO "users" ("first_name", "last_name", "medicare", "ndss", "phone", "email", "location", "user_type", "admin", "password_digest", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)[0m  [["first_name", "Luke"], ["last_name", "Hammer"], ["medicare", 1039394839], ["ndss", 99483728392], ["phone", 499302958], ["email", "lukehammer@gmail.com"], ["location", "Wollongong"], ["user_type", 2], ["admin", 0], ["password_digest", "$2a$12$cY8DbE5Dn/4Hr9nN.j/99ONg7JQSrJONWwZGtdJUG6de.dlUcnonO"], ["created_at", "2020-02-25 03:18:55.570972"], ["updated_at", "2020-02-25 03:18:55.570972"]]
+  ↳ db/seeds.rb:22
+  [1m[35m (6.1ms)[0m  [1m[36mcommit transaction[0m
+  ↳ db/seeds.rb:22
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  ↳ db/seeds.rb:24
+  [1m[36mUser Exists (0.1ms)[0m  [1m[34mSELECT  1 AS one FROM "users" WHERE "users"."email" = ? LIMIT ?[0m  [["email", "judeosborn@gmail.com"], ["LIMIT", 1]]
+  ↳ db/seeds.rb:24
+  [1m[36mUser Create (0.4ms)[0m  [1m[32mINSERT INTO "users" ("first_name", "last_name", "medicare", "ndss", "phone", "email", "location", "user_type", "admin", "password_digest", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)[0m  [["first_name", "Jude"], ["last_name", "Osborn"], ["medicare", 8593848573], ["ndss", 23748392934], ["phone", 424859481], ["email", "judeosborn@gmail.com"], ["location", "Castle Hill"], ["user_type", 2], ["admin", 0], ["password_digest", "$2a$12$ljY6/ZYJy9dhTZwjAVJhRep3wwHFvAT1IvgE05oTjRdMAu.6b8Jn6"], ["created_at", "2020-02-25 03:18:55.848316"], ["updated_at", "2020-02-25 03:18:55.848316"]]
+  ↳ db/seeds.rb:24
+  [1m[35m (6.2ms)[0m  [1m[36mcommit transaction[0m
+  ↳ db/seeds.rb:24
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  ↳ db/seeds.rb:27
+  [1m[36mBloodSugar Create (0.4ms)[0m  [1m[32mINSERT INTO "blood_sugars" ("user_id", "level", "created_at", "updated_at") VALUES (?, ?, ?, ?)[0m  [["user_id", 8], ["level", 5], ["created_at", "2020-02-25 03:18:55.858890"], ["updated_at", "2020-02-25 03:18:55.858890"]]
+  ↳ db/seeds.rb:27
+  [1m[35m (0.9ms)[0m  [1m[36mcommit transaction[0m
+  ↳ db/seeds.rb:27
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  ↳ db/seeds.rb:29
+  [1m[36mBloodSugar Create (0.4ms)[0m  [1m[32mINSERT INTO "blood_sugars" ("user_id", "level", "created_at", "updated_at") VALUES (?, ?, ?, ?)[0m  [["user_id", 8], ["level", 5], ["created_at", "2020-02-25 03:18:55.862566"], ["updated_at", "2020-02-25 03:18:55.862566"]]
+  ↳ db/seeds.rb:29
+  [1m[35m (0.7ms)[0m  [1m[36mcommit transaction[0m
+  ↳ db/seeds.rb:29
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  ↳ db/seeds.rb:31
+  [1m[36mBloodSugar Create (0.3ms)[0m  [1m[32mINSERT INTO "blood_sugars" ("user_id", "level", "created_at", "updated_at") VALUES (?, ?, ?, ?)[0m  [["user_id", 8], ["level", 2], ["created_at", "2020-02-25 03:18:55.867697"], ["updated_at", "2020-02-25 03:18:55.867697"]]
+  ↳ db/seeds.rb:31
+  [1m[35m (0.5ms)[0m  [1m[36mcommit transaction[0m
+  ↳ db/seeds.rb:31
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  ↳ db/seeds.rb:33
+  [1m[36mBloodSugar Create (0.4ms)[0m  [1m[32mINSERT INTO "blood_sugars" ("user_id", "level", "created_at", "updated_at") VALUES (?, ?, ?, ?)[0m  [["user_id", 8], ["level", 11], ["created_at", "2020-02-25 03:18:55.869554"], ["updated_at", "2020-02-25 03:18:55.869554"]]
+  ↳ db/seeds.rb:33
+  [1m[35m (0.7ms)[0m  [1m[36mcommit transaction[0m
+  ↳ db/seeds.rb:33
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  ↳ db/seeds.rb:37
+  [1m[36mBloodSugar Create (0.4ms)[0m  [1m[32mINSERT INTO "blood_sugars" ("user_id", "level", "created_at", "updated_at") VALUES (?, ?, ?, ?)[0m  [["user_id", 9], ["level", 6], ["created_at", "2020-02-25 03:18:55.872198"], ["updated_at", "2020-02-25 03:18:55.872198"]]
+  ↳ db/seeds.rb:37
+  [1m[35m (0.9ms)[0m  [1m[36mcommit transaction[0m
+  ↳ db/seeds.rb:37
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  ↳ db/seeds.rb:39
+  [1m[36mBloodSugar Create (0.3ms)[0m  [1m[32mINSERT INTO "blood_sugars" ("user_id", "level", "created_at", "updated_at") VALUES (?, ?, ?, ?)[0m  [["user_id", 9], ["level", 8], ["created_at", "2020-02-25 03:18:55.875135"], ["updated_at", "2020-02-25 03:18:55.875135"]]
+  ↳ db/seeds.rb:39
+  [1m[35m (0.8ms)[0m  [1m[36mcommit transaction[0m
+  ↳ db/seeds.rb:39
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  ↳ db/seeds.rb:41
+  [1m[36mBloodSugar Create (0.3ms)[0m  [1m[32mINSERT INTO "blood_sugars" ("user_id", "level", "created_at", "updated_at") VALUES (?, ?, ?, ?)[0m  [["user_id", 9], ["level", 9], ["created_at", "2020-02-25 03:18:55.877658"], ["updated_at", "2020-02-25 03:18:55.877658"]]
+  ↳ db/seeds.rb:41
+  [1m[35m (0.7ms)[0m  [1m[36mcommit transaction[0m
+  ↳ db/seeds.rb:41
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  ↳ db/seeds.rb:43
+  [1m[36mBloodSugar Create (0.4ms)[0m  [1m[32mINSERT INTO "blood_sugars" ("user_id", "level", "created_at", "updated_at") VALUES (?, ?, ?, ?)[0m  [["user_id", 9], ["level", 10], ["created_at", "2020-02-25 03:18:55.880077"], ["updated_at", "2020-02-25 03:18:55.880077"]]
+  ↳ db/seeds.rb:43
+  [1m[35m (0.8ms)[0m  [1m[36mcommit transaction[0m
+  ↳ db/seeds.rb:43
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  ↳ db/seeds.rb:47
+  [1m[36mGlycemicIndex Create (0.3ms)[0m  [1m[32mINSERT INTO "glycemic_indices" ("food", "gi", "created_at", "updated_at") VALUES (?, ?, ?, ?)[0m  [["food", "Potato"], ["gi", 78], ["created_at", "2020-02-25 03:18:55.882801"], ["updated_at", "2020-02-25 03:18:55.882801"]]
+  ↳ db/seeds.rb:47
+  [1m[35m (0.6ms)[0m  [1m[36mcommit transaction[0m
+  ↳ db/seeds.rb:47
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  ↳ db/seeds.rb:49
+  [1m[36mGlycemicIndex Create (0.3ms)[0m  [1m[32mINSERT INTO "glycemic_indices" ("food", "gi", "created_at", "updated_at") VALUES (?, ?, ?, ?)[0m  [["food", "Pumpkin"], ["gi", 64], ["created_at", "2020-02-25 03:18:55.884908"], ["updated_at", "2020-02-25 03:18:55.884908"]]
+  ↳ db/seeds.rb:49
+  [1m[35m (0.7ms)[0m  [1m[36mcommit transaction[0m
+  ↳ db/seeds.rb:49
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  ↳ db/seeds.rb:51
+  [1m[36mGlycemicIndex Create (0.5ms)[0m  [1m[32mINSERT INTO "glycemic_indices" ("food", "gi", "created_at", "updated_at") VALUES (?, ?, ?, ?)[0m  [["food", "Milk"], ["gi", 39], ["created_at", "2020-02-25 03:18:55.887442"], ["updated_at", "2020-02-25 03:18:55.887442"]]
+  ↳ db/seeds.rb:51
+  [1m[35m (0.9ms)[0m  [1m[36mcommit transaction[0m
+  ↳ db/seeds.rb:51
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  ↳ db/seeds.rb:53
+  [1m[36mGlycemicIndex Create (0.6ms)[0m  [1m[32mINSERT INTO "glycemic_indices" ("food", "gi", "created_at", "updated_at") VALUES (?, ?, ?, ?)[0m  [["food", "Bread"], ["gi", 75], ["created_at", "2020-02-25 03:18:55.890704"], ["updated_at", "2020-02-25 03:18:55.890704"]]
+  ↳ db/seeds.rb:53
+  [1m[35m (0.7ms)[0m  [1m[36mcommit transaction[0m
+  ↳ db/seeds.rb:53
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  ↳ db/seeds.rb:56
+  [1m[36mMedication Create (0.5ms)[0m  [1m[32mINSERT INTO "medications" ("name", "dosage", "instructions", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?)[0m  [["name", "Lantus"], ["dosage", 28], ["instructions", "Take every night before bed"], ["created_at", "2020-02-25 03:18:55.893925"], ["updated_at", "2020-02-25 03:18:55.893925"]]
+  ↳ db/seeds.rb:56
+  [1m[35m (1.1ms)[0m  [1m[36mcommit transaction[0m
+  ↳ db/seeds.rb:56
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  ↳ db/seeds.rb:58
+  [1m[36mMedication Create (0.4ms)[0m  [1m[32mINSERT INTO "medications" ("name", "dosage", "instructions", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?)[0m  [["name", "Nova Rapid"], ["dosage", 1], ["instructions", "Take at a ratio of 1:10 carbs"], ["created_at", "2020-02-25 03:18:55.897486"], ["updated_at", "2020-02-25 03:18:55.897486"]]
+  ↳ db/seeds.rb:58
+  [1m[35m (0.7ms)[0m  [1m[36mcommit transaction[0m
+  ↳ db/seeds.rb:58
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  ↳ db/seeds.rb:60
+  [1m[36mMedication Create (0.5ms)[0m  [1m[32mINSERT INTO "medications" ("name", "dosage", "instructions", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?)[0m  [["name", "Apidra"], ["dosage", 10], ["instructions", "Take with every meal"], ["created_at", "2020-02-25 03:18:55.900426"], ["updated_at", "2020-02-25 03:18:55.900426"]]
+  ↳ db/seeds.rb:60
+  [1m[35m (0.9ms)[0m  [1m[36mcommit transaction[0m
+  ↳ db/seeds.rb:60
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  ↳ db/seeds.rb:62
+  [1m[36mMedication Create (0.5ms)[0m  [1m[32mINSERT INTO "medications" ("name", "dosage", "instructions", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?)[0m  [["name", "Acarbose"], ["dosage", 2], ["instructions", "Take with a meal"], ["created_at", "2020-02-25 03:18:55.903495"], ["updated_at", "2020-02-25 03:18:55.903495"]]
+  ↳ db/seeds.rb:62
+  [1m[35m (1.0ms)[0m  [1m[36mcommit transaction[0m
+  ↳ db/seeds.rb:62
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  ↳ db/seeds.rb:65
+  [1m[36mQuestion Create (0.6ms)[0m  [1m[32mINSERT INTO "questions" ("user_id", "qustion_text", "created_at", "updated_at") VALUES (?, ?, ?, ?)[0m  [["user_id", 9], ["qustion_text", "Etiam orci magna, pharetra vitae commodo vel, feugiat eget nunc.\n"], ["created_at", "2020-02-25 03:18:55.913010"], ["updated_at", "2020-02-25 03:18:55.913010"]]
+  ↳ db/seeds.rb:65
+  [1m[35m (0.8ms)[0m  [1m[36mcommit transaction[0m
+  ↳ db/seeds.rb:65
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  ↳ db/seeds.rb:68
+  [1m[36mQuestion Create (0.5ms)[0m  [1m[32mINSERT INTO "questions" ("user_id", "qustion_text", "created_at", "updated_at") VALUES (?, ?, ?, ?)[0m  [["user_id", 9], ["qustion_text", "Donec erat ligula, lobortis eu malesuada non, bibendum eget est.\n"], ["created_at", "2020-02-25 03:18:55.916392"], ["updated_at", "2020-02-25 03:18:55.916392"]]
+  ↳ db/seeds.rb:68
+  [1m[35m (0.6ms)[0m  [1m[36mcommit transaction[0m
+  ↳ db/seeds.rb:68
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  ↳ db/seeds.rb:71
+  [1m[36mQuestion Create (0.5ms)[0m  [1m[32mINSERT INTO "questions" ("user_id", "qustion_text", "created_at", "updated_at") VALUES (?, ?, ?, ?)[0m  [["user_id", 9], ["qustion_text", "Nullam at cursus tortor. Phasellus in aliquam felis. Sed at.\n"], ["created_at", "2020-02-25 03:18:55.919441"], ["updated_at", "2020-02-25 03:18:55.919441"]]
+  ↳ db/seeds.rb:71
+  [1m[35m (0.9ms)[0m  [1m[36mcommit transaction[0m
+  ↳ db/seeds.rb:71
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  ↳ db/seeds.rb:74
+  [1m[36mQuestion Create (0.4ms)[0m  [1m[32mINSERT INTO "questions" ("user_id", "qustion_text", "created_at", "updated_at") VALUES (?, ?, ?, ?)[0m  [["user_id", 10], ["qustion_text", "Pellentesque nec pharetra purus, vel consectetur tellus. Maecenas elementum eget.\n"], ["created_at", "2020-02-25 03:18:55.922645"], ["updated_at", "2020-02-25 03:18:55.922645"]]
+  ↳ db/seeds.rb:74
+  [1m[35m (0.6ms)[0m  [1m[36mcommit transaction[0m
+  ↳ db/seeds.rb:74
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  ↳ db/seeds.rb:77
+  [1m[36mQuestion Create (0.5ms)[0m  [1m[32mINSERT INTO "questions" ("user_id", "qustion_text", "created_at", "updated_at") VALUES (?, ?, ?, ?)[0m  [["user_id", 10], ["qustion_text", "Curabitur accumsan eu dui maximus condimentum. Nulla eu consectetur odio.\n"], ["created_at", "2020-02-25 03:18:55.925302"], ["updated_at", "2020-02-25 03:18:55.925302"]]
+  ↳ db/seeds.rb:77
+  [1m[35m (0.7ms)[0m  [1m[36mcommit transaction[0m
+  ↳ db/seeds.rb:77
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  ↳ db/seeds.rb:82
+  [1m[36mAnswer Create (0.4ms)[0m  [1m[32mINSERT INTO "answers" ("question_id", "user_id", "answer_text", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?)[0m  [["question_id", 1], ["user_id", 8], ["answer_text", "\nLorem ipsum dolor sit amet, consectetur adipiscing elit. In lacinia augue sagittis ipsum viverra, et."], ["created_at", "2020-02-25 03:18:55.934554"], ["updated_at", "2020-02-25 03:18:55.934554"]]
+  ↳ db/seeds.rb:82
+  [1m[35m (0.6ms)[0m  [1m[36mcommit transaction[0m
+  ↳ db/seeds.rb:82
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  ↳ db/seeds.rb:85
+  [1m[36mAnswer Create (0.4ms)[0m  [1m[32mINSERT INTO "answers" ("question_id", "user_id", "answer_text", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?)[0m  [["question_id", 2], ["user_id", 8], ["answer_text", "\n  Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam fringilla elementum sapien a lacinia. Aenean.\n"], ["created_at", "2020-02-25 03:18:55.937132"], ["updated_at", "2020-02-25 03:18:55.937132"]]
+  ↳ db/seeds.rb:85
+  [1m[35m (1.0ms)[0m  [1m[36mcommit transaction[0m
+  ↳ db/seeds.rb:85
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  ↳ db/seeds.rb:89
+  [1m[36mAnswer Create (0.3ms)[0m  [1m[32mINSERT INTO "answers" ("question_id", "user_id", "answer_text", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?)[0m  [["question_id", 3], ["user_id", 8], ["answer_text", "\n  Ut vitae dictum tellus, et suscipit sem. Praesent non porttitor quam. Donec id semper mauris.\n"], ["created_at", "2020-02-25 03:18:55.940037"], ["updated_at", "2020-02-25 03:18:55.940037"]]
+  ↳ db/seeds.rb:89
+  [1m[35m (0.6ms)[0m  [1m[36mcommit transaction[0m
+  ↳ db/seeds.rb:89
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  ↳ db/seeds.rb:93
+  [1m[36mAnswer Create (0.4ms)[0m  [1m[32mINSERT INTO "answers" ("question_id", "user_id", "answer_text", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?)[0m  [["question_id", 4], ["user_id", 8], ["answer_text", "\n  In elementum felis non tincidunt iaculis. Maecenas tincidunt, tortor eu efficitur bibendum, elit odio auctor.\n"], ["created_at", "2020-02-25 03:18:55.942218"], ["updated_at", "2020-02-25 03:18:55.942218"]]
+  ↳ db/seeds.rb:93
+  [1m[35m (0.6ms)[0m  [1m[36mcommit transaction[0m
+  ↳ db/seeds.rb:93
+Started GET "/answers" for ::1 at 2020-02-25 14:18:59 +1100
+Processing by AnswersController#index as HTML
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 2], ["LIMIT", 1]]
+  ↳ app/controllers/application_controller.rb:6
+  Rendering answers/index.html.erb within layouts/application
+  [1m[36mAnswer Load (0.3ms)[0m  [1m[34mSELECT "answers".* FROM "answers"[0m
+  ↳ app/views/answers/index.html.erb:16
+  Rendered answers/index.html.erb within layouts/application (10.7ms)
+Completed 200 OK in 43ms (Views: 32.1ms | ActiveRecord: 1.6ms)
+
+
+Started GET "/questions" for ::1 at 2020-02-25 14:19:04 +1100
+Processing by QuestionsController#index as HTML
+  Rendering questions/index.html.erb within layouts/application
+  [1m[36mQuestion Load (0.3ms)[0m  [1m[34mSELECT "questions".* FROM "questions"[0m
+  ↳ app/views/questions/index.html.erb:15
+  Rendered questions/index.html.erb within layouts/application (8.7ms)
+Completed 200 OK in 48ms (Views: 43.0ms | ActiveRecord: 0.8ms)
+
+
+Started GET "/users" for ::1 at 2020-02-25 14:19:14 +1100
+Processing by UsersController#index as HTML
+Redirected to http://localhost:3000/login
+Filter chain halted as :check_if_logged_in rendered or redirected
+Completed 302 Found in 3ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/login" for ::1 at 2020-02-25 14:19:14 +1100
+Processing by SessionController#new as HTML
+  Rendering session/new.html.erb within layouts/application
+  Rendered session/new.html.erb within layouts/application (2.1ms)
+Completed 200 OK in 28ms (Views: 24.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/users" for ::1 at 2020-02-25 14:19:17 +1100
+Processing by UsersController#index as HTML
+Redirected to http://localhost:3000/login
+Filter chain halted as :check_if_logged_in rendered or redirected
+Completed 302 Found in 2ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/login" for ::1 at 2020-02-25 14:19:17 +1100
+Processing by SessionController#new as HTML
+  Rendering session/new.html.erb within layouts/application
+  Rendered session/new.html.erb within layouts/application (1.3ms)
+Completed 200 OK in 31ms (Views: 29.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/login" for ::1 at 2020-02-25 14:19:33 +1100
+Processing by SessionController#new as HTML
+  Rendering session/new.html.erb within layouts/application
+  Rendered session/new.html.erb within layouts/application (2.0ms)
+Completed 200 OK in 29ms (Views: 26.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/questions" for ::1 at 2020-02-25 14:19:35 +1100
+Processing by QuestionsController#index as HTML
+  Rendering questions/index.html.erb within layouts/application
+  [1m[36mQuestion Load (0.2ms)[0m  [1m[34mSELECT "questions".* FROM "questions"[0m
+  ↳ app/views/questions/index.html.erb:15
+  Rendered questions/index.html.erb within layouts/application (10.4ms)
+Completed 200 OK in 38ms (Views: 31.5ms | ActiveRecord: 0.8ms)
+
+
+Started GET "/users" for ::1 at 2020-02-25 14:19:38 +1100
+Processing by UsersController#index as HTML
+  Rendering users/index.html.erb within layouts/application
+  [1m[36mUser Load (0.3ms)[0m  [1m[34mSELECT "users".* FROM "users"[0m
+  ↳ app/views/users/index.html.erb:23
+  Rendered users/index.html.erb within layouts/application (18.7ms)
+Completed 200 OK in 49ms (Views: 44.1ms | ActiveRecord: 1.0ms)
+
+
+Started GET "/medications" for ::1 at 2020-02-25 14:19:50 +1100
+Processing by MedicationsController#index as HTML
+  Rendering medications/index.html.erb within layouts/application
+  [1m[36mMedication Load (0.3ms)[0m  [1m[34mSELECT "medications".* FROM "medications"[0m
+  ↳ app/views/medications/index.html.erb:16
+  Rendered medications/index.html.erb within layouts/application (12.5ms)
+Completed 200 OK in 48ms (Views: 42.9ms | ActiveRecord: 0.8ms)
+
+
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  ↳ bin/rails:4
+  [1m[36mActiveRecord::InternalMetadata Load (0.1ms)[0m  [1m[34mSELECT  "ar_internal_metadata".* FROM "ar_internal_metadata" WHERE "ar_internal_metadata"."key" = ? LIMIT ?[0m  [["key", "environment"], ["LIMIT", 1]]
+  ↳ bin/rails:4
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  ↳ bin/rails:4
+  [1m[35m (0.0ms)[0m  [1m[36mcommit transaction[0m
+  ↳ bin/rails:4
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  ↳ bin/rails:4
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  ↳ bin/rails:4
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  ↳ bin/rails:4
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  ↳ bin/rails:4
+  [1m[36mAnswer Load (0.1ms)[0m  [1m[34mSELECT "answers".* FROM "answers"[0m
+  ↳ db/seeds.rb:9
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  ↳ db/seeds.rb:9
+  [1m[36mAnswer Destroy (0.3ms)[0m  [1m[31mDELETE FROM "answers" WHERE "answers"."id" = ?[0m  [["id", 1]]
+  ↳ db/seeds.rb:9
+  [1m[35m (0.6ms)[0m  [1m[36mcommit transaction[0m
+  ↳ db/seeds.rb:9
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  ↳ db/seeds.rb:9
+  [1m[36mAnswer Destroy (0.2ms)[0m  [1m[31mDELETE FROM "answers" WHERE "answers"."id" = ?[0m  [["id", 2]]
+  ↳ db/seeds.rb:9
+  [1m[35m (0.7ms)[0m  [1m[36mcommit transaction[0m
+  ↳ db/seeds.rb:9
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  ↳ db/seeds.rb:9
+  [1m[36mAnswer Destroy (0.3ms)[0m  [1m[31mDELETE FROM "answers" WHERE "answers"."id" = ?[0m  [["id", 3]]
+  ↳ db/seeds.rb:9
+  [1m[35m (0.6ms)[0m  [1m[36mcommit transaction[0m
+  ↳ db/seeds.rb:9
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  ↳ db/seeds.rb:9
+  [1m[36mAnswer Destroy (0.2ms)[0m  [1m[31mDELETE FROM "answers" WHERE "answers"."id" = ?[0m  [["id", 4]]
+  ↳ db/seeds.rb:9
+  [1m[35m (0.6ms)[0m  [1m[36mcommit transaction[0m
+  ↳ db/seeds.rb:9
+  [1m[36mQuestion Load (0.2ms)[0m  [1m[34mSELECT "questions".* FROM "questions"[0m
+  ↳ db/seeds.rb:10
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  ↳ db/seeds.rb:10
+  [1m[36mQuestion Destroy (0.3ms)[0m  [1m[31mDELETE FROM "questions" WHERE "questions"."id" = ?[0m  [["id", 1]]
+  ↳ db/seeds.rb:10
+  [1m[35m (0.5ms)[0m  [1m[36mcommit transaction[0m
+  ↳ db/seeds.rb:10
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  ↳ db/seeds.rb:10
+  [1m[36mQuestion Destroy (0.2ms)[0m  [1m[31mDELETE FROM "questions" WHERE "questions"."id" = ?[0m  [["id", 2]]
+  ↳ db/seeds.rb:10
+  [1m[35m (0.5ms)[0m  [1m[36mcommit transaction[0m
+  ↳ db/seeds.rb:10
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  ↳ db/seeds.rb:10
+  [1m[36mQuestion Destroy (0.2ms)[0m  [1m[31mDELETE FROM "questions" WHERE "questions"."id" = ?[0m  [["id", 3]]
+  ↳ db/seeds.rb:10
+  [1m[35m (0.5ms)[0m  [1m[36mcommit transaction[0m
+  ↳ db/seeds.rb:10
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  ↳ db/seeds.rb:10
+  [1m[36mQuestion Destroy (0.2ms)[0m  [1m[31mDELETE FROM "questions" WHERE "questions"."id" = ?[0m  [["id", 4]]
+  ↳ db/seeds.rb:10
+  [1m[35m (0.5ms)[0m  [1m[36mcommit transaction[0m
+  ↳ db/seeds.rb:10
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  ↳ db/seeds.rb:10
+  [1m[36mQuestion Destroy (0.2ms)[0m  [1m[31mDELETE FROM "questions" WHERE "questions"."id" = ?[0m  [["id", 5]]
+  ↳ db/seeds.rb:10
+  [1m[35m (0.5ms)[0m  [1m[36mcommit transaction[0m
+  ↳ db/seeds.rb:10
+  [1m[36mBloodSugar Load (0.2ms)[0m  [1m[34mSELECT "blood_sugars".* FROM "blood_sugars"[0m
+  ↳ db/seeds.rb:11
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  ↳ db/seeds.rb:11
+  [1m[36mBloodSugar Destroy (0.3ms)[0m  [1m[31mDELETE FROM "blood_sugars" WHERE "blood_sugars"."id" = ?[0m  [["id", 9]]
+  ↳ db/seeds.rb:11
+  [1m[35m (0.6ms)[0m  [1m[36mcommit transaction[0m
+  ↳ db/seeds.rb:11
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  ↳ db/seeds.rb:11
+  [1m[36mBloodSugar Destroy (0.2ms)[0m  [1m[31mDELETE FROM "blood_sugars" WHERE "blood_sugars"."id" = ?[0m  [["id", 10]]
+  ↳ db/seeds.rb:11
+  [1m[35m (0.5ms)[0m  [1m[36mcommit transaction[0m
+  ↳ db/seeds.rb:11
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  ↳ db/seeds.rb:11
+  [1m[36mBloodSugar Destroy (0.2ms)[0m  [1m[31mDELETE FROM "blood_sugars" WHERE "blood_sugars"."id" = ?[0m  [["id", 11]]
+  ↳ db/seeds.rb:11
+  [1m[35m (0.6ms)[0m  [1m[36mcommit transaction[0m
+  ↳ db/seeds.rb:11
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  ↳ db/seeds.rb:11
+  [1m[36mBloodSugar Destroy (0.2ms)[0m  [1m[31mDELETE FROM "blood_sugars" WHERE "blood_sugars"."id" = ?[0m  [["id", 12]]
+  ↳ db/seeds.rb:11
+  [1m[35m (0.5ms)[0m  [1m[36mcommit transaction[0m
+  ↳ db/seeds.rb:11
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  ↳ db/seeds.rb:11
+  [1m[36mBloodSugar Destroy (0.2ms)[0m  [1m[31mDELETE FROM "blood_sugars" WHERE "blood_sugars"."id" = ?[0m  [["id", 13]]
+  ↳ db/seeds.rb:11
+  [1m[35m (0.7ms)[0m  [1m[36mcommit transaction[0m
+  ↳ db/seeds.rb:11
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  ↳ db/seeds.rb:11
+  [1m[36mBloodSugar Destroy (0.3ms)[0m  [1m[31mDELETE FROM "blood_sugars" WHERE "blood_sugars"."id" = ?[0m  [["id", 14]]
+  ↳ db/seeds.rb:11
+  [1m[35m (0.5ms)[0m  [1m[36mcommit transaction[0m
+  ↳ db/seeds.rb:11
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  ↳ db/seeds.rb:11
+  [1m[36mBloodSugar Destroy (0.3ms)[0m  [1m[31mDELETE FROM "blood_sugars" WHERE "blood_sugars"."id" = ?[0m  [["id", 15]]
+  ↳ db/seeds.rb:11
+  [1m[35m (0.5ms)[0m  [1m[36mcommit transaction[0m
+  ↳ db/seeds.rb:11
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  ↳ db/seeds.rb:11
+  [1m[36mBloodSugar Destroy (0.2ms)[0m  [1m[31mDELETE FROM "blood_sugars" WHERE "blood_sugars"."id" = ?[0m  [["id", 16]]
+  ↳ db/seeds.rb:11
+  [1m[35m (0.5ms)[0m  [1m[36mcommit transaction[0m
+  ↳ db/seeds.rb:11
+  [1m[36mGlycemicIndex Load (0.2ms)[0m  [1m[34mSELECT "glycemic_indices".* FROM "glycemic_indices"[0m
+  ↳ db/seeds.rb:12
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  ↳ db/seeds.rb:12
+  [1m[36mGlycemicIndex Destroy (0.3ms)[0m  [1m[31mDELETE FROM "glycemic_indices" WHERE "glycemic_indices"."id" = ?[0m  [["id", 5]]
+  ↳ db/seeds.rb:12
+  [1m[35m (0.6ms)[0m  [1m[36mcommit transaction[0m
+  ↳ db/seeds.rb:12
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  ↳ db/seeds.rb:12
+  [1m[36mGlycemicIndex Destroy (0.7ms)[0m  [1m[31mDELETE FROM "glycemic_indices" WHERE "glycemic_indices"."id" = ?[0m  [["id", 6]]
+  ↳ db/seeds.rb:12
+  [1m[35m (1.0ms)[0m  [1m[36mcommit transaction[0m
+  ↳ db/seeds.rb:12
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  ↳ db/seeds.rb:12
+  [1m[36mGlycemicIndex Destroy (0.3ms)[0m  [1m[31mDELETE FROM "glycemic_indices" WHERE "glycemic_indices"."id" = ?[0m  [["id", 7]]
+  ↳ db/seeds.rb:12
+  [1m[35m (1.0ms)[0m  [1m[36mcommit transaction[0m
+  ↳ db/seeds.rb:12
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  ↳ db/seeds.rb:12
+  [1m[36mGlycemicIndex Destroy (0.4ms)[0m  [1m[31mDELETE FROM "glycemic_indices" WHERE "glycemic_indices"."id" = ?[0m  [["id", 8]]
+  ↳ db/seeds.rb:12
+  [1m[35m (0.6ms)[0m  [1m[36mcommit transaction[0m
+  ↳ db/seeds.rb:12
+  [1m[36mMedication Load (0.3ms)[0m  [1m[34mSELECT "medications".* FROM "medications"[0m
+  ↳ db/seeds.rb:13
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  ↳ db/seeds.rb:13
+  [1m[36mMedication Destroy (0.3ms)[0m  [1m[31mDELETE FROM "medications" WHERE "medications"."id" = ?[0m  [["id", 5]]
+  ↳ db/seeds.rb:13
+  [1m[35m (0.6ms)[0m  [1m[36mcommit transaction[0m
+  ↳ db/seeds.rb:13
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  ↳ db/seeds.rb:13
+  [1m[36mMedication Destroy (0.4ms)[0m  [1m[31mDELETE FROM "medications" WHERE "medications"."id" = ?[0m  [["id", 6]]
+  ↳ db/seeds.rb:13
+  [1m[35m (1.0ms)[0m  [1m[36mcommit transaction[0m
+  ↳ db/seeds.rb:13
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  ↳ db/seeds.rb:13
+  [1m[36mMedication Destroy (0.4ms)[0m  [1m[31mDELETE FROM "medications" WHERE "medications"."id" = ?[0m  [["id", 7]]
+  ↳ db/seeds.rb:13
+  [1m[35m (1.0ms)[0m  [1m[36mcommit transaction[0m
+  ↳ db/seeds.rb:13
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  ↳ db/seeds.rb:13
+  [1m[36mMedication Destroy (0.3ms)[0m  [1m[31mDELETE FROM "medications" WHERE "medications"."id" = ?[0m  [["id", 8]]
+  ↳ db/seeds.rb:13
+  [1m[35m (0.7ms)[0m  [1m[36mcommit transaction[0m
+  ↳ db/seeds.rb:13
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT "users".* FROM "users"[0m
+  ↳ db/seeds.rb:14
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  ↳ db/seeds.rb:14
+  [1m[36mUser Destroy (0.3ms)[0m  [1m[31mDELETE FROM "users" WHERE "users"."id" = ?[0m  [["id", 7]]
+  ↳ db/seeds.rb:14
+  [1m[35m (0.6ms)[0m  [1m[36mcommit transaction[0m
+  ↳ db/seeds.rb:14
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  ↳ db/seeds.rb:14
+  [1m[36mUser Destroy (0.2ms)[0m  [1m[31mDELETE FROM "users" WHERE "users"."id" = ?[0m  [["id", 8]]
+  ↳ db/seeds.rb:14
+  [1m[35m (0.5ms)[0m  [1m[36mcommit transaction[0m
+  ↳ db/seeds.rb:14
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  ↳ db/seeds.rb:14
+  [1m[36mUser Destroy (0.2ms)[0m  [1m[31mDELETE FROM "users" WHERE "users"."id" = ?[0m  [["id", 9]]
+  ↳ db/seeds.rb:14
+  [1m[35m (0.8ms)[0m  [1m[36mcommit transaction[0m
+  ↳ db/seeds.rb:14
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  ↳ db/seeds.rb:14
+  [1m[36mUser Destroy (0.3ms)[0m  [1m[31mDELETE FROM "users" WHERE "users"."id" = ?[0m  [["id", 10]]
+  ↳ db/seeds.rb:14
+  [1m[35m (0.6ms)[0m  [1m[36mcommit transaction[0m
+  ↳ db/seeds.rb:14
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  ↳ db/seeds.rb:18
+  [1m[36mUser Exists (0.1ms)[0m  [1m[34mSELECT  1 AS one FROM "users" WHERE "users"."email" = ? LIMIT ?[0m  [["email", "kevinosborn31@gmail.com"], ["LIMIT", 1]]
+  ↳ db/seeds.rb:18
+  [1m[36mUser Create (0.2ms)[0m  [1m[32mINSERT INTO "users" ("first_name", "last_name", "email", "user_type", "admin", "password_digest", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?, ?, ?, ?)[0m  [["first_name", "Kevin"], ["last_name", "Osborn"], ["email", "kevinosborn31@gmail.com"], ["user_type", 0], ["admin", 1], ["password_digest", "$2a$12$2Wo403Wg8DQsZ2ovvVdyPeo/ppEhHsDk4n8T6irGq23CnklJGY6RG"], ["created_at", "2020-02-25 03:28:41.154855"], ["updated_at", "2020-02-25 03:28:41.154855"]]
+  ↳ db/seeds.rb:18
+  [1m[35m (6.1ms)[0m  [1m[36mcommit transaction[0m
+  ↳ db/seeds.rb:18
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  ↳ db/seeds.rb:20
+  [1m[36mUser Exists (0.1ms)[0m  [1m[34mSELECT  1 AS one FROM "users" WHERE "users"."email" = ? LIMIT ?[0m  [["email", "ram@gmail.com"], ["LIMIT", 1]]
+  ↳ db/seeds.rb:20
+  [1m[36mUser Create (0.2ms)[0m  [1m[32mINSERT INTO "users" ("first_name", "last_name", "phone", "email", "location", "specialization", "user_type", "admin", "password_digest", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)[0m  [["first_name", "Ram"], ["last_name", "Taheri"], ["phone", 483910295], ["email", "ram@gmail.com"], ["location", "Wollongong"], ["specialization", "Endocrinologist"], ["user_type", 1], ["admin", 0], ["password_digest", "$2a$12$QIJzg3vPn/XJuw/jNWKAp.hti9u0J86VI2pPGOmY4x4SNb/evmKcm"], ["created_at", "2020-02-25 03:28:41.424295"], ["updated_at", "2020-02-25 03:28:41.424295"]]
+  ↳ db/seeds.rb:20
+  [1m[35m (6.1ms)[0m  [1m[36mcommit transaction[0m
+  ↳ db/seeds.rb:20
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  ↳ db/seeds.rb:22
+  [1m[36mUser Exists (0.1ms)[0m  [1m[34mSELECT  1 AS one FROM "users" WHERE "users"."email" = ? LIMIT ?[0m  [["email", "lukehammer@gmail.com"], ["LIMIT", 1]]
+  ↳ db/seeds.rb:22
+  [1m[36mUser Create (0.2ms)[0m  [1m[32mINSERT INTO "users" ("first_name", "last_name", "medicare", "ndss", "phone", "email", "location", "user_type", "admin", "password_digest", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)[0m  [["first_name", "Luke"], ["last_name", "Hammer"], ["medicare", 1039394839], ["ndss", 99483728392], ["phone", 499302958], ["email", "lukehammer@gmail.com"], ["location", "Wollongong"], ["user_type", 2], ["admin", 0], ["password_digest", "$2a$12$.4em5Fu7lGcXde0d5m1zfuBu1/lazfaL1dSzdfKOhtqjpdYHkCXuq"], ["created_at", "2020-02-25 03:28:41.696885"], ["updated_at", "2020-02-25 03:28:41.696885"]]
+  ↳ db/seeds.rb:22
+  [1m[35m (5.8ms)[0m  [1m[36mcommit transaction[0m
+  ↳ db/seeds.rb:22
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  ↳ db/seeds.rb:24
+  [1m[36mUser Exists (0.2ms)[0m  [1m[34mSELECT  1 AS one FROM "users" WHERE "users"."email" = ? LIMIT ?[0m  [["email", "judeosborn@gmail.com"], ["LIMIT", 1]]
+  ↳ db/seeds.rb:24
+  [1m[36mUser Create (0.2ms)[0m  [1m[32mINSERT INTO "users" ("first_name", "last_name", "medicare", "ndss", "phone", "email", "location", "user_type", "admin", "password_digest", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)[0m  [["first_name", "Jude"], ["last_name", "Osborn"], ["medicare", 8593848573], ["ndss", 23748392934], ["phone", 424859481], ["email", "judeosborn@gmail.com"], ["location", "Castle Hill"], ["user_type", 2], ["admin", 0], ["password_digest", "$2a$12$BTFcQp/G/cU4bVKjjDjt7.NgsXUMsO9xNcLG/MHewtEmiOxfchqs6"], ["created_at", "2020-02-25 03:28:41.967162"], ["updated_at", "2020-02-25 03:28:41.967162"]]
+  ↳ db/seeds.rb:24
+  [1m[35m (5.9ms)[0m  [1m[36mcommit transaction[0m
+  ↳ db/seeds.rb:24
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  ↳ db/seeds.rb:27
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 12], ["LIMIT", 1]]
+  ↳ db/seeds.rb:27
+  [1m[36mBloodSugar Create (0.3ms)[0m  [1m[32mINSERT INTO "blood_sugars" ("user_id", "level", "created_at", "updated_at") VALUES (?, ?, ?, ?)[0m  [["user_id", 12], ["level", 5], ["created_at", "2020-02-25 03:28:41.991885"], ["updated_at", "2020-02-25 03:28:41.991885"]]
+  ↳ db/seeds.rb:27
+  [1m[35m (0.6ms)[0m  [1m[36mcommit transaction[0m
+  ↳ db/seeds.rb:27
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  ↳ db/seeds.rb:29
+  [1m[36mUser Load (0.1ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 12], ["LIMIT", 1]]
+  ↳ db/seeds.rb:29
+  [1m[36mBloodSugar Create (0.3ms)[0m  [1m[32mINSERT INTO "blood_sugars" ("user_id", "level", "created_at", "updated_at") VALUES (?, ?, ?, ?)[0m  [["user_id", 12], ["level", 5], ["created_at", "2020-02-25 03:28:41.994924"], ["updated_at", "2020-02-25 03:28:41.994924"]]
+  ↳ db/seeds.rb:29
+  [1m[35m (0.6ms)[0m  [1m[36mcommit transaction[0m
+  ↳ db/seeds.rb:29
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  ↳ db/seeds.rb:31
+  [1m[36mUser Load (0.1ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 12], ["LIMIT", 1]]
+  ↳ db/seeds.rb:31
+  [1m[36mBloodSugar Create (0.3ms)[0m  [1m[32mINSERT INTO "blood_sugars" ("user_id", "level", "created_at", "updated_at") VALUES (?, ?, ?, ?)[0m  [["user_id", 12], ["level", 2], ["created_at", "2020-02-25 03:28:41.998587"], ["updated_at", "2020-02-25 03:28:41.998587"]]
+  ↳ db/seeds.rb:31
+  [1m[35m (0.6ms)[0m  [1m[36mcommit transaction[0m
+  ↳ db/seeds.rb:31
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  ↳ db/seeds.rb:33
+  [1m[36mUser Load (0.1ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 12], ["LIMIT", 1]]
+  ↳ db/seeds.rb:33
+  [1m[36mBloodSugar Create (0.3ms)[0m  [1m[32mINSERT INTO "blood_sugars" ("user_id", "level", "created_at", "updated_at") VALUES (?, ?, ?, ?)[0m  [["user_id", 12], ["level", 11], ["created_at", "2020-02-25 03:28:42.001353"], ["updated_at", "2020-02-25 03:28:42.001353"]]
+  ↳ db/seeds.rb:33
+  [1m[35m (0.7ms)[0m  [1m[36mcommit transaction[0m
+  ↳ db/seeds.rb:33
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  ↳ db/seeds.rb:37
+  [1m[36mUser Load (0.1ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 13], ["LIMIT", 1]]
+  ↳ db/seeds.rb:37
+  [1m[36mBloodSugar Create (0.3ms)[0m  [1m[32mINSERT INTO "blood_sugars" ("user_id", "level", "created_at", "updated_at") VALUES (?, ?, ?, ?)[0m  [["user_id", 13], ["level", 6], ["created_at", "2020-02-25 03:28:42.004432"], ["updated_at", "2020-02-25 03:28:42.004432"]]
+  ↳ db/seeds.rb:37
+  [1m[35m (0.6ms)[0m  [1m[36mcommit transaction[0m
+  ↳ db/seeds.rb:37
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  ↳ db/seeds.rb:39
+  [1m[36mUser Load (0.1ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 13], ["LIMIT", 1]]
+  ↳ db/seeds.rb:39
+  [1m[36mBloodSugar Create (0.3ms)[0m  [1m[32mINSERT INTO "blood_sugars" ("user_id", "level", "created_at", "updated_at") VALUES (?, ?, ?, ?)[0m  [["user_id", 13], ["level", 8], ["created_at", "2020-02-25 03:28:42.007189"], ["updated_at", "2020-02-25 03:28:42.007189"]]
+  ↳ db/seeds.rb:39
+  [1m[35m (0.6ms)[0m  [1m[36mcommit transaction[0m
+  ↳ db/seeds.rb:39
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  ↳ db/seeds.rb:41
+  [1m[36mUser Load (0.1ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 13], ["LIMIT", 1]]
+  ↳ db/seeds.rb:41
+  [1m[36mBloodSugar Create (0.2ms)[0m  [1m[32mINSERT INTO "blood_sugars" ("user_id", "level", "created_at", "updated_at") VALUES (?, ?, ?, ?)[0m  [["user_id", 13], ["level", 9], ["created_at", "2020-02-25 03:28:42.009860"], ["updated_at", "2020-02-25 03:28:42.009860"]]
+  ↳ db/seeds.rb:41
+  [1m[35m (0.6ms)[0m  [1m[36mcommit transaction[0m
+  ↳ db/seeds.rb:41
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  ↳ db/seeds.rb:43
+  [1m[36mUser Load (0.1ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 13], ["LIMIT", 1]]
+  ↳ db/seeds.rb:43
+  [1m[36mBloodSugar Create (0.3ms)[0m  [1m[32mINSERT INTO "blood_sugars" ("user_id", "level", "created_at", "updated_at") VALUES (?, ?, ?, ?)[0m  [["user_id", 13], ["level", 10], ["created_at", "2020-02-25 03:28:42.012557"], ["updated_at", "2020-02-25 03:28:42.012557"]]
+  ↳ db/seeds.rb:43
+  [1m[35m (0.6ms)[0m  [1m[36mcommit transaction[0m
+  ↳ db/seeds.rb:43
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  ↳ db/seeds.rb:47
+  [1m[36mGlycemicIndex Create (0.3ms)[0m  [1m[32mINSERT INTO "glycemic_indices" ("food", "gi", "created_at", "updated_at") VALUES (?, ?, ?, ?)[0m  [["food", "Potato"], ["gi", 78], ["created_at", "2020-02-25 03:28:42.014624"], ["updated_at", "2020-02-25 03:28:42.014624"]]
+  ↳ db/seeds.rb:47
+  [1m[35m (0.7ms)[0m  [1m[36mcommit transaction[0m
+  ↳ db/seeds.rb:47
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  ↳ db/seeds.rb:49
+  [1m[36mGlycemicIndex Create (0.3ms)[0m  [1m[32mINSERT INTO "glycemic_indices" ("food", "gi", "created_at", "updated_at") VALUES (?, ?, ?, ?)[0m  [["food", "Pumpkin"], ["gi", 64], ["created_at", "2020-02-25 03:28:42.016943"], ["updated_at", "2020-02-25 03:28:42.016943"]]
+  ↳ db/seeds.rb:49
+  [1m[35m (0.6ms)[0m  [1m[36mcommit transaction[0m
+  ↳ db/seeds.rb:49
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  ↳ db/seeds.rb:51
+  [1m[36mGlycemicIndex Create (0.3ms)[0m  [1m[32mINSERT INTO "glycemic_indices" ("food", "gi", "created_at", "updated_at") VALUES (?, ?, ?, ?)[0m  [["food", "Milk"], ["gi", 39], ["created_at", "2020-02-25 03:28:42.019094"], ["updated_at", "2020-02-25 03:28:42.019094"]]
+  ↳ db/seeds.rb:51
+  [1m[35m (0.6ms)[0m  [1m[36mcommit transaction[0m
+  ↳ db/seeds.rb:51
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  ↳ db/seeds.rb:53
+  [1m[36mGlycemicIndex Create (0.3ms)[0m  [1m[32mINSERT INTO "glycemic_indices" ("food", "gi", "created_at", "updated_at") VALUES (?, ?, ?, ?)[0m  [["food", "Bread"], ["gi", 75], ["created_at", "2020-02-25 03:28:42.021292"], ["updated_at", "2020-02-25 03:28:42.021292"]]
+  ↳ db/seeds.rb:53
+  [1m[35m (0.7ms)[0m  [1m[36mcommit transaction[0m
+  ↳ db/seeds.rb:53
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  ↳ db/seeds.rb:56
+  [1m[36mMedication Create (0.5ms)[0m  [1m[32mINSERT INTO "medications" ("name", "dosage", "instructions", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?)[0m  [["name", "Lantus"], ["dosage", 28], ["instructions", "Take every night before bed"], ["created_at", "2020-02-25 03:28:42.024654"], ["updated_at", "2020-02-25 03:28:42.024654"]]
+  ↳ db/seeds.rb:56
+  [1m[35m (0.7ms)[0m  [1m[36mcommit transaction[0m
+  ↳ db/seeds.rb:56
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  ↳ db/seeds.rb:58
+  [1m[36mMedication Create (0.4ms)[0m  [1m[32mINSERT INTO "medications" ("name", "dosage", "instructions", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?)[0m  [["name", "Nova Rapid"], ["dosage", 1], ["instructions", "Take at a ratio of 1:10 carbs"], ["created_at", "2020-02-25 03:28:42.027910"], ["updated_at", "2020-02-25 03:28:42.027910"]]
+  ↳ db/seeds.rb:58
+  [1m[35m (1.1ms)[0m  [1m[36mcommit transaction[0m
+  ↳ db/seeds.rb:58
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  ↳ db/seeds.rb:60
+  [1m[36mMedication Create (0.3ms)[0m  [1m[32mINSERT INTO "medications" ("name", "dosage", "instructions", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?)[0m  [["name", "Apidra"], ["dosage", 10], ["instructions", "Take with every meal"], ["created_at", "2020-02-25 03:28:42.031140"], ["updated_at", "2020-02-25 03:28:42.031140"]]
+  ↳ db/seeds.rb:60
+  [1m[35m (0.8ms)[0m  [1m[36mcommit transaction[0m
+  ↳ db/seeds.rb:60
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  ↳ db/seeds.rb:62
+  [1m[36mMedication Create (0.5ms)[0m  [1m[32mINSERT INTO "medications" ("name", "dosage", "instructions", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?)[0m  [["name", "Acarbose"], ["dosage", 2], ["instructions", "Take with a meal"], ["created_at", "2020-02-25 03:28:42.033949"], ["updated_at", "2020-02-25 03:28:42.033949"]]
+  ↳ db/seeds.rb:62
+  [1m[35m (0.9ms)[0m  [1m[36mcommit transaction[0m
+  ↳ db/seeds.rb:62
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  ↳ db/seeds.rb:65
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 13], ["LIMIT", 1]]
+  ↳ db/seeds.rb:65
+  [1m[36mQuestion Create (0.4ms)[0m  [1m[32mINSERT INTO "questions" ("user_id", "qustion_text", "created_at", "updated_at") VALUES (?, ?, ?, ?)[0m  [["user_id", 13], ["qustion_text", "Etiam orci magna, pharetra vitae commodo vel, feugiat eget nunc.\n"], ["created_at", "2020-02-25 03:28:42.040802"], ["updated_at", "2020-02-25 03:28:42.040802"]]
+  ↳ db/seeds.rb:65
+  [1m[35m (0.7ms)[0m  [1m[36mcommit transaction[0m
+  ↳ db/seeds.rb:65
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  ↳ db/seeds.rb:68
+  [1m[36mUser Load (0.1ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 13], ["LIMIT", 1]]
+  ↳ db/seeds.rb:68
+  [1m[36mQuestion Create (0.3ms)[0m  [1m[32mINSERT INTO "questions" ("user_id", "qustion_text", "created_at", "updated_at") VALUES (?, ?, ?, ?)[0m  [["user_id", 13], ["qustion_text", "Donec erat ligula, lobortis eu malesuada non, bibendum eget est.\n"], ["created_at", "2020-02-25 03:28:42.044634"], ["updated_at", "2020-02-25 03:28:42.044634"]]
+  ↳ db/seeds.rb:68
+  [1m[35m (0.9ms)[0m  [1m[36mcommit transaction[0m
+  ↳ db/seeds.rb:68
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  ↳ db/seeds.rb:71
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 13], ["LIMIT", 1]]
+  ↳ db/seeds.rb:71
+  [1m[36mQuestion Create (0.3ms)[0m  [1m[32mINSERT INTO "questions" ("user_id", "qustion_text", "created_at", "updated_at") VALUES (?, ?, ?, ?)[0m  [["user_id", 13], ["qustion_text", "Nullam at cursus tortor. Phasellus in aliquam felis. Sed at.\n"], ["created_at", "2020-02-25 03:28:42.049341"], ["updated_at", "2020-02-25 03:28:42.049341"]]
+  ↳ db/seeds.rb:71
+  [1m[35m (0.7ms)[0m  [1m[36mcommit transaction[0m
+  ↳ db/seeds.rb:71
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  ↳ db/seeds.rb:74
+  [1m[36mUser Load (0.1ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 14], ["LIMIT", 1]]
+  ↳ db/seeds.rb:74
+  [1m[36mQuestion Create (0.4ms)[0m  [1m[32mINSERT INTO "questions" ("user_id", "qustion_text", "created_at", "updated_at") VALUES (?, ?, ?, ?)[0m  [["user_id", 14], ["qustion_text", "Pellentesque nec pharetra purus, vel consectetur tellus. Maecenas elementum eget.\n"], ["created_at", "2020-02-25 03:28:42.052324"], ["updated_at", "2020-02-25 03:28:42.052324"]]
+  ↳ db/seeds.rb:74
+  [1m[35m (0.6ms)[0m  [1m[36mcommit transaction[0m
+  ↳ db/seeds.rb:74
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  ↳ db/seeds.rb:77
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 14], ["LIMIT", 1]]
+  ↳ db/seeds.rb:77
+  [1m[36mQuestion Create (0.3ms)[0m  [1m[32mINSERT INTO "questions" ("user_id", "qustion_text", "created_at", "updated_at") VALUES (?, ?, ?, ?)[0m  [["user_id", 14], ["qustion_text", "Curabitur accumsan eu dui maximus condimentum. Nulla eu consectetur odio.\n"], ["created_at", "2020-02-25 03:28:42.055977"], ["updated_at", "2020-02-25 03:28:42.055977"]]
+  ↳ db/seeds.rb:77
+  [1m[35m (0.7ms)[0m  [1m[36mcommit transaction[0m
+  ↳ db/seeds.rb:77
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  ↳ db/seeds.rb:82
+  [1m[36mUser Load (0.1ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 12], ["LIMIT", 1]]
+  ↳ db/seeds.rb:82
+  [1m[36mAnswer Create (0.3ms)[0m  [1m[32mINSERT INTO "answers" ("question_id", "user_id", "answer_text", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?)[0m  [["question_id", 6], ["user_id", 12], ["answer_text", "\nLorem ipsum dolor sit amet, consectetur adipiscing elit. In lacinia augue sagittis ipsum viverra, et."], ["created_at", "2020-02-25 03:28:42.060163"], ["updated_at", "2020-02-25 03:28:42.060163"]]
+  ↳ db/seeds.rb:82
+  [1m[35m (0.6ms)[0m  [1m[36mcommit transaction[0m
+  ↳ db/seeds.rb:82
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  ↳ db/seeds.rb:85
+  [1m[36mUser Load (0.1ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 12], ["LIMIT", 1]]
+  ↳ db/seeds.rb:85
+  [1m[36mAnswer Create (0.4ms)[0m  [1m[32mINSERT INTO "answers" ("question_id", "user_id", "answer_text", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?)[0m  [["question_id", 7], ["user_id", 12], ["answer_text", "\n  Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam fringilla elementum sapien a lacinia. Aenean.\n"], ["created_at", "2020-02-25 03:28:42.063355"], ["updated_at", "2020-02-25 03:28:42.063355"]]
+  ↳ db/seeds.rb:85
+  [1m[35m (0.6ms)[0m  [1m[36mcommit transaction[0m
+  ↳ db/seeds.rb:85
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  ↳ db/seeds.rb:89
+  [1m[36mUser Load (0.1ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 12], ["LIMIT", 1]]
+  ↳ db/seeds.rb:89
+  [1m[36mAnswer Create (0.3ms)[0m  [1m[32mINSERT INTO "answers" ("question_id", "user_id", "answer_text", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?)[0m  [["question_id", 8], ["user_id", 12], ["answer_text", "\n  Ut vitae dictum tellus, et suscipit sem. Praesent non porttitor quam. Donec id semper mauris.\n"], ["created_at", "2020-02-25 03:28:42.067071"], ["updated_at", "2020-02-25 03:28:42.067071"]]
+  ↳ db/seeds.rb:89
+  [1m[35m (0.6ms)[0m  [1m[36mcommit transaction[0m
+  ↳ db/seeds.rb:89
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  ↳ db/seeds.rb:93
+  [1m[36mUser Load (0.1ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 12], ["LIMIT", 1]]
+  ↳ db/seeds.rb:93
+  [1m[36mAnswer Create (0.3ms)[0m  [1m[32mINSERT INTO "answers" ("question_id", "user_id", "answer_text", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?)[0m  [["question_id", 9], ["user_id", 12], ["answer_text", "\n  In elementum felis non tincidunt iaculis. Maecenas tincidunt, tortor eu efficitur bibendum, elit odio auctor.\n"], ["created_at", "2020-02-25 03:28:42.074086"], ["updated_at", "2020-02-25 03:28:42.074086"]]
+  ↳ db/seeds.rb:93
+  [1m[35m (0.8ms)[0m  [1m[36mcommit transaction[0m
+  ↳ db/seeds.rb:93
+Started GET "/medications" for ::1 at 2020-02-25 14:28:45 +1100
+Processing by MedicationsController#index as HTML
+  Rendering medications/index.html.erb within layouts/application
+  [1m[36mMedication Load (0.2ms)[0m  [1m[34mSELECT "medications".* FROM "medications"[0m
+  ↳ app/views/medications/index.html.erb:16
+  Rendered medications/index.html.erb within layouts/application (10.3ms)
+Completed 200 OK in 54ms (Views: 48.7ms | ActiveRecord: 0.8ms)
+
+
+Started GET "/medications" for ::1 at 2020-02-25 14:28:46 +1100
+Processing by MedicationsController#index as HTML
+  Rendering medications/index.html.erb within layouts/application
+  [1m[36mMedication Load (0.1ms)[0m  [1m[34mSELECT "medications".* FROM "medications"[0m
+  ↳ app/views/medications/index.html.erb:16
+  Rendered medications/index.html.erb within layouts/application (2.7ms)
+Completed 200 OK in 30ms (Views: 27.1ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/users" for ::1 at 2020-02-25 14:28:47 +1100
+Processing by UsersController#index as HTML
+  Rendering users/index.html.erb within layouts/application
+  [1m[36mUser Load (0.3ms)[0m  [1m[34mSELECT "users".* FROM "users"[0m
+  ↳ app/views/users/index.html.erb:23
+  Rendered users/index.html.erb within layouts/application (16.9ms)
+Completed 200 OK in 51ms (Views: 39.5ms | ActiveRecord: 1.0ms)
+
+
+Started GET "/answers" for ::1 at 2020-02-25 14:28:51 +1100
+Processing by AnswersController#index as HTML
+  Rendering answers/index.html.erb within layouts/application
+  [1m[36mAnswer Load (0.3ms)[0m  [1m[34mSELECT "answers".* FROM "answers"[0m
+  ↳ app/views/answers/index.html.erb:16
+  Rendered answers/index.html.erb within layouts/application (10.9ms)
+Completed 200 OK in 43ms (Views: 34.4ms | ActiveRecord: 0.7ms)
+
+

@@ -2,13 +2,15 @@
 
 <p>
   <strong>User:</strong>
-  <%= @question.user_id %>
+  <%= @question.user.first_name %>
 </p>
 
 <p>
-  <strong>Qustion text:</strong>
+  <strong>Question:</strong>
   <%= @question.qustion_text %>
 </p>
 
+<% if @current_user.user_type === 'admin' %>
 <%= link_to 'Edit', edit_question_path(@question) %> |
+<% end %>
 <%= link_to 'Back', questions_path %>

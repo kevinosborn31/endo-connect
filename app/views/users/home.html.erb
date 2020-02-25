@@ -1,9 +1,27 @@
 <% if @current_user.user_type === 'admin' %>
-
+  Welcome, Lord Admin
 <% end %>
 
 <% if @current_user.user_type === 'doctor' %>
-  
+  <p>Your Patients</p>
+  <div class="patient_list">
+    <table>
+      <thead>
+        <tr>
+          <th>Name</th>
+          <th>Most Recent Level</th>
+          <th>Note Last Updated</th>
+          <th></th>
+        </tr>
+        <tr>
+          <td>Jude</td>
+          <td>5.3</td>
+          <td>26/02/20120</td>
+          <td><%= link_to 'Patient Details' %></td>
+        </tr>
+      </thead>
+    </table>
+  </div>
 <% end %>
 
 <% if @current_user.user_type === 'patient' %>

@@ -9,11 +9,20 @@
     <%= javascript_include_tag 'application' %>
   </head>
 
+
   <body>
+
     <% if @current_user.present? %>
     Logged in as <a href="/users/<%= @current_user.id %>"><%= @current_user.first_name %></a>
+      <%# Show the correct nav for the logged-in user type %>
+        <%= render partial: "layouts/nav_#{@current_user.user_type}" %>
+          <%= link_to "Logout", login_path, method: 'delete', :class => "mdl-button", :onClick => 'alert("You have been logged out")'%>
+    <% end %>
+
+    <% if false %>
+
+    <% if @current_user.present? %>
     <% if @current_user.user_type === 'admin' %>
-    (Admin)
     <% end %>
     <% if @current_user.user_type === 'doctor' %>
     (Doctor)
@@ -24,38 +33,19 @@
     <%= link_to "Logout", login_path, method: 'delete', :class => "mdl-button", :onClick => 'alert("You have been logged out")'%>
 
     <% if @current_user.user_type === 'admin' %>
-    <nav>
-      <ul>
-        <li><%= link_to "Questions", '/questions' %></li>
-        <li><%= link_to "Blood Sugars", '/blood_sugars' %></li>
-        <li><%= link_to "GI Lookup", '/glycemic_indices' %></li>
-        <li><%= link_to "Medications", '/medications' %></li>
-        <li><%= link_to "Users", '/users' %></li>
-      </ul>
-    </nav>
+
     <% end %>
 
     <% if @current_user.user_type === 'doctor' %>
-    <nav>
-      <ul>
-        <li><%= link_to "Home", '/' %></li>
-        <li><%= link_to "Questions", '/questions' %></li>
-      </ul>
-    </nav>
+
     <% end %>
 
     <% if @current_user.user_type === 'patient' %>
-    <nav>
-      <ul>
-        <li><%= link_to "Home", '/' %></li>
-        <li><%= link_to "Your Doctor", '/users/12' %></li>
-        <li><%= link_to "Information", '/info' %></li>
-        <li><%= link_to "GI Lookup", '/glycemic_indices' %></li>
-        <li><%= link_to "Questions", '/questions' %></li>
-      </ul>
-    </nav>
+
     <% end %>
     <% end %>
+
+    <% end %><%# turn off all code %>
 
 
     <%= yield %>
